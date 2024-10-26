@@ -2,7 +2,7 @@ import importlib.metadata
 
 from fantraxapi.fantrax import FantraxAPI
 from fantraxapi.exceptions import FantraxException
-from fantraxapi.objs import DraftPick, Matchup, Player, Position, Record, ScoringPeriod, Standings, Team, Trade, TradeBlock, TradePlayer, Transaction
+from fantraxapi.objs import DraftPick, Matchup, Player, Position, Record, ScoringPeriod, StandingsCollection, Standings, Team, Trade, TradeBlock, TradePlayer, Transaction
 
 try:
     __version__ = importlib.metadata.version("fantraxapi")
@@ -25,6 +25,7 @@ __all__ = [
     "Position",
     "Record",
     "ScoringPeriod",
+    "StandingsCollection",
     "Standings",
     "Team",
     "Trade",

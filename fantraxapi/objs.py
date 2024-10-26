@@ -136,46 +136,6 @@ class Position:
     def __eq__(self, other):
         return (self.id, self.name, self.short_name) == (other.id, other.name, other.short_name)
 
-class Record:
-    """ Represents a single Record of a :class:`~Standings`.
-
-        Attributes:
-            team (:class:`~Team`): Team.
-            rank (int): Standings Rank.
-            win (int): Number of Wins.
-            loss (int): Number of Losses.
-            tie (int): Number of Ties.
-            points (int): Number of Points.
-            win_percentage (float): Win Percentage.
-            games_back (int): Number of Games Back.
-            wavier_wire_order (int): Wavier Wire Claim Order.
-            points_for (float): Fantasy Points Against.
-            streak (str): Streak.
-
-    """
-    def __init__(self, api, team_id, rank, fields, data):
-        print(data)
-        self._api = api
-        self.team = self._api.team(team_id)
-        self.rank = int(rank)
-        self.win = int(data[fields["win"]]["content"]) if "win" in fields else None
-        self.loss = int(data[fields["loss"]]["content"]) if "loss" in fields else None
-        self.tie = int(data[fields["tie"]]["content"]) if "tie" in fields else None
-        self.points = int(data[fields["points"]]["content"]) if "points" in fields else None
-        self.win_percentage = float(data[fields["winpc"]]["content"]) if "winpc" in fields else None
-        self.games_back = float(data[fields["gamesback"]]["content"]) if "gamesback" in fields else None
-        self.wavier_wire_order = int(data[fields["wwOrder"]]["content"]) if "wwOrder" in fields else None
-        self.points_for = float(data[fields["pointsFor"]]["content"].replace(",", "")) if "pointsFor" in fields else None
-        self.points_against = float(data[fields["pointsAgainst"]]["content"].replace(",", "")) if "pointsAgainst" in fields else None
-        self.streak = data[fields["streak"]]["content"] if "streak" in fields else None
-
-    def __repr__(self):
-        return self.__str__()
-
-    def __str__(self):
-        return f"{self.rank}: {self.team} ({self.win}-{self.loss}-{self.tie})"
-
-
 class ScoringPeriod:
     """ Represents a single Scoring Period.
 
@@ -233,23 +193,60 @@ class ScoringPeriod:
         return output
 
 
-class Standings:
-    """ Represents a single Standings.
+class Record:
+    """ Represents a single Record of a :class:`~Standings`.
+
+        Attributes:
+            team (:class:`~Team`): Team.
+            rank (int): Standings Rank.
+            data (dict): key is header, value is the value for the team
+
+    """
+    def __init__(self, api, team_id, rank, data):
+        self._api = api
+        self.team = self._api.team(team_id)
+        self.rank = int(rank)
+        self.data = data
+
+    def __repr__(self):
+        return self.__str__()
+
+    def __str__(self):
+        """
+        Returns a human-readable string representation of the Record instance.
+        
+        Example:
+            "Rank 1: Team Name
+             Rotisserie Points: 32
+             +/-: 1
+             Waiver Wire Claim Order: 4
+             ..."
+        """
+        # Start with the rank and team name
+        record_str = f"Rank {self.rank}: {self.team.name}\n"
+
+        # Iterate over the data dictionary and append each key-value pair
+        for header, value in self.data.items():
+            record_str += f"  {header}: {value}\n"
+        
+        return record_str.strip()
+
+class StandingsCollection:
+    """ Represents multiple Standings, e.g. for rotisserie-based leagues
 
         Attributes:
             week (int): Week Number.
-            ranks (Dict[int, :class:`~Record`]): Team Ranks and their Records.
+            standings (List[:class:`~SingleStanding`]): List of Standing sections.
 
     """
     def __init__(self, api, data, week=None):
         self._api = api
         self.week = week
-        self.ranks = {}
-        fields = {c["key"]: i for i, c in enumerate(data["header"]["cells"])}
-        for obj in data["rows"]:
-            team_id = obj["fixedCells"][1]["teamId"]
-            rank = obj["fixedCells"][0]["content"]
-            self.ranks[int(rank)] = Record(self._api, team_id, rank, fields, obj["cells"])
+        self.standings = []
+        
+        for section in data:
+            if section.get("tableType") != "SECTION_HEADING":
+                self.standings.append({section.get("caption"): Standings(self._api, section)})
 
     def __repr__(self):
         return self.__str__()
@@ -258,7 +255,60 @@ class Standings:
         output = f"Standings"
         if self.week:
             output += f" Week {self.week}"
-        for rank, record in self.ranks.items():
+        for standing in self.standings:
+            output += f"\n{standing}"
+        return output
+
+
+class Standings:
+    """ Represents a single Standings table
+
+        Attributes:
+            table_type (str): Type of the table (e.g., "Rotisserie").
+            caption (str): Caption of the standing.
+            team_reacord (List[:class:`~Record`]): Team Ranks and their Records.
+    """
+    def __init__(self, api, section):
+        self._api = api
+        self.table_type = section.get("tableType")
+        self.caption = section.get("caption")
+        self.team_records = []
+
+        header_names = [cell['name'] for cell in section['header']['cells']]
+
+        for row in section['rows']:
+            # Extract the 'cells' from the current row
+            cells = row['cells']
+            
+            # Create a dictionary for the current row
+            row_dict = {}
+            
+            # Zip header names with cell contents
+            for header, cell in zip(header_names, cells):
+                row_dict[header] = cell.get('content', None)  # Use .get to handle missing 'content'
+            
+            # Optionally, include fixedCells if needed
+            fixed_cells = row.get('fixedCells', [])
+            if len(fixed_cells) < 2:
+                continue
+            
+            fixed_headers = row.get('fixedHeader', {}).get('cells', [])
+            fixed_headers_names = [cell['name'] for cell in fixed_headers]
+            for header, cell in zip(fixed_headers_names, fixed_cells):
+                row_dict[header] = cell.get('content', None)
+            
+            team_id = fixed_cells[1].get("teamId")
+            rank = fixed_cells[0].get("content")
+            if team_id is not None and rank is not None:
+                # Append the row dictionary to the result list
+                self.team_records.append(Record(self._api, team_id, rank, row_dict))
+
+    def __repr__(self):
+        return self.__str__()
+
+    def __str__(self):
+        output = f"Standing: {self.caption}"
+        for record in self.ranks:
             output += f"\n{record}"
         return output
 

@@ -4,7 +4,7 @@ from requests import Session
 from json.decoder import JSONDecodeError
 from requests.exceptions import RequestException
 from fantraxapi.exceptions import FantraxException, Unauthorized
-from fantraxapi.objs import ScoringPeriod, Team, Standings, Trade, TradeBlock, Position, Transaction, Roster
+from fantraxapi.objs import ScoringPeriod, Team, StandingsCollection, Standings, Trade, TradeBlock, Position, Transaction, Roster
 
 logger = logging.getLogger(__name__)
 
@@ -97,14 +97,14 @@ class FantraxAPI:
             periods[period.week] = period
         return periods
 
-    def standings(self, week: Optional[Union[int, str]] = None) -> Standings:
-        """ :class:`~Standings` Object for either the current moment in time or after a specific week..
+    def standings(self, week: Optional[Union[int, str]] = None) -> StandingsCollection:
+        """ :class:`~StandingsCollection` Object for either the current moment in time or after a specific week..
 
             Parameters:
                 week (Optional[Union[int, str]]): Pulls data for the Standings at the given week.
 
             Returns:
-                :class:`~Standings`
+                :class:`~StandingsCollection`
         """
         if week is None:
             response = self._request("getStandings")
@@ -114,7 +114,7 @@ class FantraxAPI:
         self._teams = []
         for team_id, data in response["fantasyTeamInfo"].items():
             self._teams.append(Team(self, team_id, data["name"], data["shortName"], data["logoUrl512"]))
-        return Standings(self, response["tableList"][0], week=week)
+        return StandingsCollection(self, response["tableList"], week=week)
 
     def pending_trades(self) -> List[Trade]:
         response = self._request("getPendingTransactions")

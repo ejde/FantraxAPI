@@ -20,13 +20,13 @@ if not version:
 setup(
     name="FantraxAPI",
     version=version,
-    description="Your package description here.",
+    description="A lightweight Python library for The Fantrax API.",
     long_description=long_descr,
     long_description_content_type="text/x-rst",  # Specify content type if using reStructuredText
     url="https://github.com/meisnate12/FantraxAPI",
-    author="Your Name",
-    author_email="your.email@example.com",
-    license="MIT",  # Replace with your license
+    author="Nathan Taggart",
+    author_email="meisnate12@gmail.com",
+    license="MIT",  
     packages=find_packages(),
     python_requires=">=3.8",
     keywords=["fantraxapi", "fantrax", "fantasy", "wrapper", "api"],
