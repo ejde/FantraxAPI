@@ -41,6 +41,13 @@ ScoringPeriod
     :members:
 
 
+StandingsCollection
+--------------------
+
+.. autoclass:: fantraxapi.StandingsCollection
+    :members:
+
+
 Standings
 --------------------
 

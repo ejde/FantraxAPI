@@ -308,7 +308,7 @@ class Standings:
 
     def __str__(self):
         output = f"Standing: {self.caption}"
-        for record in self.ranks:
+        for record in self.team_records:
             output += f"\n{record}"
         return output
 
