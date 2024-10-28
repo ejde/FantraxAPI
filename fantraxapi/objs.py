@@ -277,17 +277,13 @@ class Standings:
         header_names = [cell['name'] for cell in section['header']['cells']]
 
         for row in section['rows']:
-            # Extract the 'cells' from the current row
             cells = row['cells']
             
-            # Create a dictionary for the current row
             row_dict = {}
-            
-            # Zip header names with cell contents
+
             for header, cell in zip(header_names, cells):
-                row_dict[header] = cell.get('content', None)  # Use .get to handle missing 'content'
+                row_dict[header] = cell.get('content', None) 
             
-            # Optionally, include fixedCells if needed
             fixed_cells = row.get('fixedCells', [])
             if len(fixed_cells) < 2:
                 continue
@@ -300,7 +296,6 @@ class Standings:
             team_id = fixed_cells[1].get("teamId")
             rank = fixed_cells[0].get("content")
             if team_id is not None and rank is not None:
-                # Append the row dictionary to the result list
                 self.team_records.append(Record(self._api, team_id, rank, row_dict))
 
     def __repr__(self):
@@ -477,10 +472,11 @@ class Roster:
         self.max = data["miscData"]["statusTotals"][1]["max"]
         self.injured = data["miscData"]["statusTotals"][2]["total"]
         self.rows = []
-        for group in data["tables"]:
+        for group in data["tables"]: 
+            header_names = [cell['name'] for cell in group['header']['cells']]
             for row in group["rows"]:
                 if "scorer" in row or row["statusId"] == "1":
-                    self.rows.append(RosterRow(self._api, row))
+                    self.rows.append(RosterRow(self._api, row, header_names))
 
     def __repr__(self):
         return self.__str__()
@@ -490,7 +486,7 @@ class Roster:
         return f"{self.team} Roster\n{rows}"
 
 class RosterRow:
-    def __init__(self, api, data):
+    def __init__(self, api, data, stat_headers):
         self._api = api
 
         if data["statusId"] == "1":
@@ -504,25 +500,24 @@ class RosterRow:
             self.pos = Position(self._api, {"id": "0", "name": "Reserve", "shortName": "Res"})
 
         self.player = None
-        self.fppg = None
         if "scorer" in data:
             self.player = Player(self._api, data["scorer"])
-            self.fppg = float(data["cells"][3]["content"])
 
-        content = data["cells"][1]["content"]
-        self.opponent = None
-        self.time = None
-        if content and content.endswith(("AM", "PM")):
-            self.opponent, time_str = content.split("\u003cbr/\u003e")
-            self.time = datetime.strptime(time_str.split(" ")[1], "%I:%M%p")
+        # grab the stats for this player's RosterRow
+        cells = data['cells']
+        self.stats = {}
+
+        for header, cell in zip(stat_headers, cells):
+            self.stats[header] = cell.get('content', None)
 
     def __repr__(self):
         return self.__str__()
 
     def __str__(self):
-        if self.player:
-            return f"{self.pos.short_name}: {self.player}{f' vs {self.opponent}' if self.opponent else ''}"
-        else:
-            return f"{self.pos.short_name}: Empty"
+        output = f"Position: {self.pos.name}, Player: {self.player.name if self.player else 'N/A'}, Team: {self.player.team_short_name if self.player else 'N/A'}\n"
+        for header, value in self.stats.items():
+            output += f"{header}: {value}\n"
+        return output.strip()
+
 
 
