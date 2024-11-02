@@ -4,7 +4,7 @@ from requests import Session
 from json.decoder import JSONDecodeError
 from requests.exceptions import RequestException
 from fantraxapi.exceptions import FantraxException, Unauthorized
-from fantraxapi.objs import ScoringPeriod, Team, StandingsCollection, Standings, Trade, TradeBlock, Position, Transaction, Roster
+from fantraxapi.objs import ScoringPeriod, Team, StandingsCollection, PlayerStats, Trade, TradeBlock, Position, Transaction, Roster
 
 logger = logging.getLogger(__name__)
 
@@ -26,6 +26,11 @@ class FantraxAPI:
         self._session = Session() if session is None else session
         self._teams = None
         self._positions = None
+
+        response = self._request("getFantasyLeagueInfo")
+        self.default_team_id = response["fantasySettings"]["myDefaultTeamId"]
+        self.default_team_name = response["fantasySettings"]["teamName"]
+        self.league_name = response["fantasySettings"]["leagueName"]
 
     @property
     def teams(self) -> List[Team]:
@@ -174,3 +179,24 @@ class FantraxAPI:
 
     def roster_info(self, team_id):
         return Roster(self, self._request("getTeamRosterInfo", teamId=team_id), team_id)
+    
+    def get_available_players(self, position):
+        pos = {
+            "G": "POS_201",
+            "F": "POS_207",
+            "D": "POS_202"
+        }.get(position, "ALL") 
+        
+        response = self._request("getPlayerStats",positionOrGroup=pos, miscDisplayType=1, maxResultsPerPage=500, pageNumber=1, statusOrTeamFilter="ACTIVE_AVAILABLE")
+        header_names = [cell['shortName'] for cell in response['tableHeader']['cells']]
+        rows = []
+        for row in response["statsTable"]:
+            if "scorer" in row:
+                rows.append(PlayerStats(self, row, header_names))
+        
+        class AvailablePlayers:
+            def __init__(self, players):
+                self.rows = players
+
+        available_players = AvailablePlayers(rows)
+        return available_players

@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-
+import re
 from .exceptions import FantraxException
 
 
@@ -252,7 +252,7 @@ class StandingsCollection:
         return self.__str__()
 
     def __str__(self):
-        output = f"Standings"
+        output = f"Standings Collection"
         if self.week:
             output += f" Week {self.week}"
         for standing in self.standings:
@@ -274,7 +274,7 @@ class Standings:
         self.caption = section.get("caption")
         self.team_records = []
 
-        header_names = [cell['name'] for cell in section['header']['cells']]
+        header_names = [cell['shortName'] for cell in section['header']['cells']]
 
         for row in section['rows']:
             cells = row['cells']
@@ -289,7 +289,7 @@ class Standings:
                 continue
             
             fixed_headers = row.get('fixedHeader', {}).get('cells', [])
-            fixed_headers_names = [cell['name'] for cell in fixed_headers]
+            fixed_headers_names = [cell['shortName'] for cell in fixed_headers]
             for header, cell in zip(fixed_headers_names, fixed_cells):
                 row_dict[header] = cell.get('content', None)
             
@@ -462,7 +462,6 @@ class Transaction:
     def __str__(self):
         return str(self.players)
 
-
 class Roster:
     def __init__(self, api, data, team_id):
         self._api = api
@@ -485,39 +484,57 @@ class Roster:
         rows = "\n".join([str(r) for r in self.rows])
         return f"{self.team} Roster\n{rows}"
 
-class RosterRow:
+class PlayerStats:
     def __init__(self, api, data, stat_headers):
         self._api = api
-
-        if data["statusId"] == "1":
-            self.pos_id = data["posId"]
-            self.pos = self._api.positions[self.pos_id]
-        elif data["statusId"] == "3":
-            self.pos_id = "-1"
-            self.pos = Position(self._api, {"id": "-1", "name": "Injured", "shortName": "IR"})
-        else:
-            self.pos_id = "0"
-            self.pos = Position(self._api, {"id": "0", "name": "Reserve", "shortName": "Res"})
-
         self.player = None
-        if "scorer" in data:
-            self.player = Player(self._api, data["scorer"])
-
-        # grab the stats for this player's RosterRow
-        cells = data['cells']
+        self.comment = ''
         self.stats = {}
 
+        # Player information
+        if "scorer" in data:
+            self.player = Player(self._api, data["scorer"])
+            self.pos_id = data["scorer"]["posIdsNoFlex"][0]
+            self.pos = self._api.positions[self.pos_id]
+            if "icons" in data["scorer"]:
+                self.comment = data["scorer"]["icons"][0]["tooltip"]
+
+        # Stats extraction for the player
+        cells = data.get('cells', [])
         for header, cell in zip(stat_headers, cells):
-            self.stats[header] = cell.get('content', None)
+            self.stats[header] = re.sub(r"<br\s*/?>", " ", cell.get('content', None))
 
     def __repr__(self):
         return self.__str__()
 
     def __str__(self):
-        output = f"Position: {self.pos.name}, Player: {self.player.name if self.player else 'N/A'}, Team: {self.player.team_short_name if self.player else 'N/A'}\n"
+        output = f"Player: {self.player.name if self.player else 'N/A'}, Position: {self.pos.name if self.pos else 'N/A'}, Team: {self.player.team_short_name if self.player else 'N/A'}\n"
+        output += f"Comment: {self.comment}\n"
         for header, value in self.stats.items():
             output += f"{header}: {value}\n"
         return output.strip()
+
+
+class RosterRow(PlayerStats):
+    def __init__(self, api, data, stat_headers):
+        super().__init__(api, data, stat_headers)
+
+        if "statusId" in data:
+            if data["statusId"] == "1":
+                self.pos_id = data["posId"]
+                self.pos = self._api.positions[self.pos_id]
+            elif data["statusId"] == "3":
+                self.pos_id = "-1"
+                self.pos = Position(self._api, {"id": "-1", "name": "Injured", "shortName": "IR"})
+            else:
+                self.pos_id = "0"
+                self.pos = Position(self._api, {"id": "0", "name": "Reserve", "shortName": "Res"})
+
+    def __repr__(self):
+        return self.__str__()
+
+    def __str__(self):
+        return super().__str__()
 
 
 
