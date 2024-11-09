@@ -472,7 +472,7 @@ class Roster:
         self.injured = data["miscData"]["statusTotals"][2]["total"]
         self.rows = []
         for group in data["tables"]: 
-            header_names = [cell['name'] for cell in group['header']['cells']]
+            header_names = [cell['shortName'] for cell in group['header']['cells']]
             for row in group["rows"]:
                 if "scorer" in row or row["statusId"] == "1":
                     self.rows.append(RosterRow(self._api, row, header_names))
@@ -488,7 +488,7 @@ class PlayerStats:
     def __init__(self, api, data, stat_headers):
         self._api = api
         self.player = None
-        self.comment = ''
+        self.latest_comment = ''
         self.stats = {}
 
         # Player information
@@ -496,8 +496,9 @@ class PlayerStats:
             self.player = Player(self._api, data["scorer"])
             self.pos_id = data["scorer"]["posIdsNoFlex"][0]
             self.pos = self._api.positions[self.pos_id]
+
             if "icons" in data["scorer"]:
-                self.comment = data["scorer"]["icons"][0]["tooltip"]
+                self.latest_comment = data["scorer"]["icons"][0]["tooltip"]
 
         # Stats extraction for the player
         cells = data.get('cells', [])
@@ -509,7 +510,7 @@ class PlayerStats:
 
     def __str__(self):
         output = f"Player: {self.player.name if self.player else 'N/A'}, Position: {self.pos.name if self.pos else 'N/A'}, Team: {self.player.team_short_name if self.player else 'N/A'}\n"
-        output += f"Comment: {self.comment}\n"
+        output += f"Latest: {self.latest_comment}\n"
         for header, value in self.stats.items():
             output += f"{header}: {value}\n"
         return output.strip()
