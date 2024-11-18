@@ -1,0 +1,2674 @@
+{
+    "data": {
+        "sDate": "7:31 PM EDT",
+        "adrt": 45,
+        "up": "166.0.1"
+    },
+    "roles": [
+        "02"
+    ],
+    "responses": [
+        {
+            "data": {
+                "settings": {
+                    "logoUploaded": false,
+                    "logoUrl": "/assets/images/badges/nhl/gameIcon_NHL_COMMISSIONER.svg"
+                },
+                "scoringCategoryTypes": [
+                    {
+                        "value": "Tracked",
+                        "key": "5"
+                    },
+                    {
+                        "value": "Tracked (Per-Game)",
+                        "key": "7"
+                    },
+                    {
+                        "value": "Standard",
+                        "key": "1"
+                    }
+                ],
+                "teamHeadingInfo": {
+                    "fpts": {
+                        "name": "Fpts",
+                        "shortName": "Fpts",
+                        "value": 23.0
+                    },
+                    "rank": {
+                        "name": "Rank",
+                        "shortName": "Rk",
+                        "value": "2nd"
+                    },
+                    "owners": {
+                        "owners": "Owner(s)",
+                        "shortName": "Own",
+                        "value": "Eric"
+                    }
+                },
+                "tabs": [
+                    {
+                        "viewType": "1",
+                        "text": "Stats",
+                        "code": "STATS"
+                    },
+                    {
+                        "viewType": "2",
+                        "text": "Trends",
+                        "code": "OVERVIEW"
+                    },
+                    {
+                        "viewType": "5",
+                        "text": "Schedule - Week",
+                        "code": "SCHEDULE_PERIOD"
+                    },
+                    {
+                        "viewType": "6",
+                        "text": "Schedule - Full",
+                        "code": "SCHEDULE_FULL"
+                    },
+                    {
+                        "viewType": "7",
+                        "text": "Min/Max",
+                        "code": "GAMES_PER_POS"
+                    }
+                ],
+                "miscData": {
+                    "autoSubOrderMap": {},
+                    "displayedMaxDate": 1744963199000,
+                    "statusTotals": [
+                        {
+                            "total": 11,
+                            "max": 12,
+                            "name": "Active",
+                            "id": "1"
+                        },
+                        {
+                            "total": 6,
+                            "max": 5,
+                            "name": "Reserve",
+                            "id": "2"
+                        },
+                        {
+                            "total": 0,
+                            "max": "Unlimited",
+                            "name": "Inj Res",
+                            "id": "3"
+                        }
+                    ],
+                    "showConfirmWindow": true,
+                    "periodName": "Period",
+                    "transactionSalaryBudgetInfo": [],
+                    "autoSubsOrderingType": "NONE",
+                    "displayedMinDate": 1728028800000,
+                    "alwaysShowPosition": false,
+                    "autoSubmitLineupChanges": false,
+                    "draftPickTradingAllowed": true,
+                    "applyToFuturePeriods": true,
+                    "tradesAllowed": true,
+                    "showPendingTransactions": true,
+                    "claimsDropsAllowed": true,
+                    "alwaysShowPositionIds": [],
+                    "autoSubOrderMax": 6,
+                    "showActivateUnscheduleButton": true
+                },
+                "dataLists": {
+                    "teamRosterViewTypeIds": [
+                        "1",
+                        "5",
+                        "6"
+                    ]
+                },
+                "myTeamIds": [
+                    "6qk0zw9vlvmik97p"
+                ],
+                "goBackDays": [
+                    1,
+                    7,
+                    14,
+                    30,
+                    60
+                ],
+                "rosterDisplayMap": [],
+                "hideRowsLineupChange": false,
+                "tables": [
+                    {
+                        "scGroup": "2010",
+                        "statusTotals": [
+                            {
+                                "total": 9,
+                                "name": "Active",
+                                "id": "1"
+                            },
+                            {
+                                "total": 5,
+                                "name": "Reserve",
+                                "id": "2"
+                            }
+                        ],
+                        "scGroupScorerHeader": "Skaters",
+                        "header": {
+                            "cells": [
+                                {
+                                    "eventStr": true,
+                                    "sortDirection": 1,
+                                    "name": "Opponent",
+                                    "shortName": "Opp",
+                                    "key": "opponent"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2100#-1",
+                                    "scipId": "2010#2100#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Games Played",
+                                    "shortName": "GP",
+                                    "key": "2010#2100#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2130#-1",
+                                    "scipId": "2010#2130#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Goals",
+                                    "shortName": "G",
+                                    "key": "2010#2130#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2090#-1",
+                                    "scipId": "2010#2090#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Assists",
+                                    "shortName": "A",
+                                    "key": "2010#2090#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2181#-1",
+                                    "scipId": "2010#2181#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Plus/Minus",
+                                    "shortName": "+/-",
+                                    "key": "2010#2181#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2270#-1",
+                                    "scipId": "2010#2270#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Shots on Goal",
+                                    "shortName": "SOG",
+                                    "key": "2010#2270#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2344#-1",
+                                    "scipId": "2010#2344#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Short-Handed Points",
+                                    "shortName": "SHP",
+                                    "key": "2010#2344#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2147#-1",
+                                    "scipId": "2010#2147#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Hits",
+                                    "shortName": "Hit",
+                                    "key": "2010#2147#-1",
+                                    "maxWidth": 3.0
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "scorer": {
+                                    "teamName": "Chicago Blackhawks",
+                                    "urlName": "connor-bedard",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs04y4m_96_3.png",
+                                    "scorerId": "04y4m",
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "206",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 27, 10:06 AM: Bedard scored a goal in Saturday\u0027s 4-2...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30150",
+                                    "name": "Connor Bedard",
+                                    "teamShortName": "CHI",
+                                    "shortName": "C. Bedard"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "-2"
+                                    },
+                                    {
+                                        "content": "32"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "3"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Florida Panthers",
+                                    "urlName": "sam-bennett",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs039cg_96_7.png",
+                                    "scorerId": "039cg",
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "206",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 27, 8:12 AM: Bennett notched a goal, two penalty...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30120",
+                                    "name": "Sam Bennett",
+                                    "teamShortName": "FLA",
+                                    "shortName": "S. Bennett"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "10"
+                                    },
+                                    {
+                                        "content": "7"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "35"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "29"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Winnipeg Jets",
+                                    "urlName": "kyle-connor",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03kra_96_5.png",
+                                    "scorerId": "03kra",
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "203",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 27, 6:42 AM: Connor scored a shorthanded goal and...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30105",
+                                    "name": "Kyle Connor",
+                                    "teamShortName": "WPG",
+                                    "shortName": "K. Connor"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "8"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "29"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Vegas Golden Knights",
+                                    "urlName": "jack-eichel",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03924_96_7.png",
+                                    "scorerId": "03924",
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "206",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 26, 10:21 PM: Eichel scored a goal on four shots,...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30255",
+                                    "name": "Jack Eichel",
+                                    "teamShortName": "VGK",
+                                    "shortName": "J. Eichel"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "12"
+                                    },
+                                    {
+                                        "content": "8"
+                                    },
+                                    {
+                                        "content": "21"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "2"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Toronto Maple Leafs",
+                                    "urlName": "auston-matthews",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03jxy_96_6.png",
+                                    "scorerId": "03jxy",
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "206",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 26, 8:49 PM: Matthews scored a goal and added an...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30090",
+                                    "name": "Auston Matthews",
+                                    "teamShortName": "TOR",
+                                    "shortName": "A. Matthews"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "-1"
+                                    },
+                                    {
+                                        "content": "42"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "3"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "New Jersey Devils",
+                                    "urlName": "timo-meier",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03ra8_96_6.png",
+                                    "scorerId": "03ra8",
+                                    "disableLineupChange": true,
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "203",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 22, 10:02 PM: Meier scored two goals Tuesday in an...",
+                                            "typeId": "9"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30000",
+                                    "name": "Timo Meier",
+                                    "teamShortName": "NJD",
+                                    "shortName": "T. Meier"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": "ANA 1\u003cbr/\u003e@NJD 0",
+                                        "eventId": "06325"
+                                    },
+                                    {
+                                        "content": "12"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "37"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "27"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Tampa Bay Lightning",
+                                    "urlName": "victor-hedman",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs01c13_96_7.png",
+                                    "scorerId": "01c13",
+                                    "posIdsNoFlex": [
+                                        "202"
+                                    ],
+                                    "defaultPosId": "202",
+                                    "posShortNames": "D",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 22, 9:31 PM: Hedman scored twice Tuesday in an 8-5...",
+                                            "typeId": "9"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "202"
+                                    ],
+                                    "teamId": "30130",
+                                    "name": "Victor Hedman",
+                                    "teamShortName": "TBL",
+                                    "shortName": "V. Hedman"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "202",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "8"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "27"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "4"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "202"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Seattle Kraken",
+                                    "urlName": "brandon-montour",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03de2_96_6.png",
+                                    "scorerId": "03de2",
+                                    "posIdsNoFlex": [
+                                        "202"
+                                    ],
+                                    "defaultPosId": "202",
+                                    "posShortNames": "D",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 24, 11:10 PM: Montour logged an assist and two hits...",
+                                            "typeId": "9"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "202"
+                                    ],
+                                    "teamId": "30257",
+                                    "name": "Brandon Montour",
+                                    "teamShortName": "SEA",
+                                    "shortName": "B. Montour"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "202",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "29"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "18"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "202"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Columbus Blue Jackets",
+                                    "urlName": "zach-werenski",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03ra7_96_6.png",
+                                    "scorerId": "03ra7",
+                                    "posIdsNoFlex": [
+                                        "202"
+                                    ],
+                                    "defaultPosId": "202",
+                                    "posShortNames": "D",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 26, 8:52 PM: Werenski scored a goal on four shots,...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "202"
+                                    ],
+                                    "teamId": "30160",
+                                    "name": "Zach Werenski",
+                                    "teamShortName": "CBJ",
+                                    "shortName": "Z. Werenski"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "202",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "7"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "27"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "3"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "202"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "posId": "202",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    }
+                                ],
+                                "statusId": "1"
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Toronto Maple Leafs",
+                                    "urlName": "william-nylander",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs02yjj_96_6.png",
+                                    "scorerId": "02yjj",
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "204",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 22, 7:32 AM: Nylander recorded two even-strength...",
+                                            "typeId": "9"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30090",
+                                    "name": "William Nylander",
+                                    "teamShortName": "TOR",
+                                    "shortName": "W. Nylander"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "content": "5"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "27"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "statusId": "2",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Vegas Golden Knights",
+                                    "urlName": "mark-stone",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs01zvf_96_7.png",
+                                    "scorerId": "01zvf",
+                                    "posIdsNoFlex": [
+                                        "207"
+                                    ],
+                                    "defaultPosId": "204",
+                                    "posShortNames": "F",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 26, 10:14 PM: Stone scored a goal on three shots,...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "207"
+                                    ],
+                                    "teamId": "30255",
+                                    "name": "Mark Stone",
+                                    "teamShortName": "VGK",
+                                    "shortName": "M. Stone"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "207",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "13"
+                                    },
+                                    {
+                                        "content": "8"
+                                    },
+                                    {
+                                        "content": "19"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "4"
+                                    }
+                                ],
+                                "statusId": "2",
+                                "eligiblePosIds": [
+                                    "207"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Calgary Flames",
+                                    "urlName": "rasmus-andersson",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03rf5_96_6.png",
+                                    "scorerId": "03rf5",
+                                    "posIdsNoFlex": [
+                                        "202"
+                                    ],
+                                    "defaultPosId": "202",
+                                    "posShortNames": "D",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 27, 11:12 AM: Andersson scored a goal on three shots,...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "202"
+                                    ],
+                                    "teamId": "30200",
+                                    "name": "Rasmus Andersson",
+                                    "teamShortName": "CGY",
+                                    "shortName": "R. Andersson"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "202",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "8"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "13"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "4"
+                                    }
+                                ],
+                                "statusId": "2",
+                                "eligiblePosIds": [
+                                    "202"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Washington Capitals",
+                                    "urlName": "john-carlson",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs015pv_96_6.png",
+                                    "scorerId": "015pv",
+                                    "posIdsNoFlex": [
+                                        "202"
+                                    ],
+                                    "defaultPosId": "202",
+                                    "posShortNames": "D",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 22, 6:09 PM: Carlson tallied a goal and added four...",
+                                            "typeId": "9"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "202"
+                                    ],
+                                    "teamId": "30140",
+                                    "name": "John Carlson",
+                                    "teamShortName": "WSH",
+                                    "shortName": "J. Carlson"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "202",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "7"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "17"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "13"
+                                    }
+                                ],
+                                "statusId": "2",
+                                "eligiblePosIds": [
+                                    "202"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Winnipeg Jets",
+                                    "urlName": "neal-pionk",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs049ph_96_5.png",
+                                    "scorerId": "049ph",
+                                    "posIdsNoFlex": [
+                                        "202"
+                                    ],
+                                    "defaultPosId": "202",
+                                    "posShortNames": "D",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 27, 6:45 AM: Pionk notched two assists, one...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "202"
+                                    ],
+                                    "teamId": "30105",
+                                    "name": "Neal Pionk",
+                                    "teamShortName": "WPG",
+                                    "shortName": "N. Pionk"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "202",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "8"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "content": "7"
+                                    },
+                                    {
+                                        "content": "21"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "11"
+                                    }
+                                ],
+                                "statusId": "2",
+                                "eligiblePosIds": [
+                                    "202"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "numSpotsAvailableText": "Reserve spot(s) available",
+                                "description": "Reserve spot(s) available Limited by Max Players on Team",
+                                "numSpotsAvailableDescription": "Limited by Max Players on Team",
+                                "numSpotsAvailableIcon": "LIMITED_BY_MAX",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    }
+                                ],
+                                "statusId": "2"
+                            },
+                            {
+                                "numSpotsAvailableText": "Inj Res spot(s) available",
+                                "description": "Inj Res spot(s) available Unlimited",
+                                "numSpotsAvailableDescription": "Unlimited",
+                                "numSpotsAvailableIcon": "UNLIMITED",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    }
+                                ],
+                                "statusId": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "scGroup": "2020",
+                        "statusTotals": [
+                            {
+                                "total": 2,
+                                "name": "Active",
+                                "id": "1"
+                            },
+                            {
+                                "total": 1,
+                                "name": "Reserve",
+                                "id": "2"
+                            }
+                        ],
+                        "scGroupScorerHeader": "Goalies",
+                        "header": {
+                            "cells": [
+                                {
+                                    "eventStr": true,
+                                    "sortDirection": 1,
+                                    "name": "Opponent",
+                                    "shortName": "Opp",
+                                    "key": "opponent"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#2100#-1",
+                                    "scipId": "2020#2100#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Games Played",
+                                    "shortName": "GP",
+                                    "key": "2020#2100#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#231b#-1",
+                                    "scipId": "2020#231b#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Wins (Goalies only) -- Includes Overtime Wins and Shootout Wins. Skaters cannot get a win using this category - for that - use the \"regular\" Wins category.",
+                                    "shortName": "W",
+                                    "key": "2020#231b#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#2330#-1",
+                                    "scipId": "2020#2330#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Save Percentage -- Saves / Shots on Goal Against",
+                                    "shortName": "SV%",
+                                    "key": "2020#2330#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#2290#-1",
+                                    "scipId": "2020#2290#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Shutouts",
+                                    "shortName": "SHO",
+                                    "key": "2020#2290#-1",
+                                    "maxWidth": 3.0
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "scorer": {
+                                    "teamName": "Anaheim Ducks",
+                                    "urlName": "lukas-dostal",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs04qyv_96_4.png",
+                                    "scorerId": "04qyv",
+                                    "disableLineupChange": true,
+                                    "posIdsNoFlex": [
+                                        "201"
+                                    ],
+                                    "defaultPosId": "201",
+                                    "posShortNames": "G",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 27, 6:11 AM: Dostal turned aside 30 shots in...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "201"
+                                    ],
+                                    "teamId": "30250",
+                                    "name": "Lukas Dostal",
+                                    "teamShortName": "ANA",
+                                    "shortName": "L. Dostal"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "201",
+                                "cells": [
+                                    {
+                                        "content": "ANA 1\u003cbr/\u003e@NJD 0",
+                                        "eventId": "06325"
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": ".936"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "201"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "Vancouver Canucks",
+                                    "urlName": "kevin-lankinen",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs04ai3_96_5.png",
+                                    "scorerId": "04ai3",
+                                    "posIdsNoFlex": [
+                                        "201"
+                                    ],
+                                    "defaultPosId": "201",
+                                    "posShortNames": "G",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 27, 12:03 AM: Lankinen stopped 21 of 24 shots in...",
+                                            "typeId": "14"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "201"
+                                    ],
+                                    "teamId": "30240",
+                                    "name": "Kevin Lankinen",
+                                    "teamShortName": "VAN",
+                                    "shortName": "K. Lankinen"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "201",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "5"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": ".930"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "statusId": "1",
+                                "eligiblePosIds": [
+                                    "201"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "scorer": {
+                                    "teamName": "New York Rangers",
+                                    "urlName": "igor-shesterkin",
+                                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03ece_96_5.png",
+                                    "scorerId": "03ece",
+                                    "posIdsNoFlex": [
+                                        "201"
+                                    ],
+                                    "defaultPosId": "201",
+                                    "posShortNames": "G",
+                                    "team": false,
+                                    "icons": [
+                                        {
+                                            "tooltip": "Oct 25, 4:49 AM: Shesterkin made 26 saves in Thursday\u0027s...",
+                                            "typeId": "9"
+                                        }
+                                    ],
+                                    "rookie": false,
+                                    "minorsEligible": false,
+                                    "posIds": [
+                                        "201"
+                                    ],
+                                    "teamId": "30020",
+                                    "name": "Igor Shesterkin",
+                                    "teamShortName": "NYR",
+                                    "shortName": "I. Shesterkin"
+                                },
+                                "eligibleStatusIds": [
+                                    "1",
+                                    "2"
+                                ],
+                                "posId": "201",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": "6"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": ".926"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "statusId": "2",
+                                "eligiblePosIds": [
+                                    "201"
+                                ],
+                                "actions": [
+                                    {
+                                        "teamId": "6qk0zw9vlvmik97p",
+                                        "typeId": "3"
+                                    },
+                                    {
+                                        "typeId": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "numSpotsAvailableText": "Reserve spot(s) available",
+                                "description": "Reserve spot(s) available Limited by Max Players on Team",
+                                "numSpotsAvailableDescription": "Limited by Max Players on Team",
+                                "numSpotsAvailableIcon": "LIMITED_BY_MAX",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    }
+                                ],
+                                "statusId": "2"
+                            },
+                            {
+                                "numSpotsAvailableText": "Inj Res spot(s) available",
+                                "description": "Inj Res spot(s) available Unlimited",
+                                "numSpotsAvailableDescription": "Unlimited",
+                                "numSpotsAvailableIcon": "UNLIMITED",
+                                "cells": [
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    },
+                                    {
+                                        "content": ""
+                                    }
+                                ],
+                                "statusId": "3"
+                            }
+                        ]
+                    }
+                ],
+                "displayedSelections": {
+                    "displayedStatsType": "1",
+                    "displayedPeriod": 24,
+                    "adminMode": false,
+                    "displayedView": "STATS",
+                    "lineupChangeSystem": "EASY_CLICK",
+                    "displayedStartDate": 1728028800000,
+                    "displayedScoringCategoryType": "5",
+                    "displayedFantasyTeamId": "6qk0zw9vlvmik97p",
+                    "displayedSeasonOrProjection": {
+                        "standard": true,
+                        "code": "SEASON_31j_YEAR_TO_DATE",
+                        "endDate": 1744948799000,
+                        "name": "2024-25 Reg Season - YTD",
+                        "shortName": "2024-25 Reg - YTD",
+                        "timeframeTypeCode": "YEAR_TO_DATE",
+                        "startDate": 1728014400000
+                    },
+                    "displayedEndDate": 1730016000000
+                },
+                "fantasyTeams": [
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_25.png",
+                        "name": "I’m Batman",
+                        "id": "fd06ve1blvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_25.png",
+                        "shortName": "Batman",
+                        "commissioner": false
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                        "name": "Ol\u0027 Ospreys",
+                        "id": "6qk0zw9vlvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                        "shortName": "Ospreys",
+                        "commissioner": true
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_2.png",
+                        "name": "Poo Poo Heads",
+                        "id": "nc0l2qblm1f4c94j",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_2.png",
+                        "shortName": "Mom",
+                        "commissioner": false
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_15.png",
+                        "name": "Toe Drag Release",
+                        "id": "mkmw31y3lvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_15.png",
+                        "shortName": "Hi",
+                        "commissioner": false
+                    }
+                ],
+                "displayedLists": {
+                    "statsTypes": [
+                        {
+                            "code": "REAL",
+                            "name": "NHL",
+                            "id": "1"
+                        },
+                        {
+                            "code": "FANTASY",
+                            "name": "Fantasy Team",
+                            "id": "2"
+                        },
+                        {
+                            "code": "FANTASY_FULL",
+                            "name": "Full Fantasy Team",
+                            "id": "3"
+                        }
+                    ],
+                    "goBackDays": [
+                        1,
+                        7,
+                        14,
+                        30,
+                        60
+                    ],
+                    "scoringCategoryTypes": [
+                        {
+                            "value": "Tracked",
+                            "key": "5"
+                        },
+                        {
+                            "value": "Tracked (Per-Game)",
+                            "key": "7"
+                        },
+                        {
+                            "value": "Standard",
+                            "key": "1"
+                        }
+                    ],
+                    "seasonOrProjections": [
+                        {
+                            "standard": true,
+                            "code": "PROJECTION_0_31j_EVENT_PROJECTED_WEEKLY",
+                            "endDate": 1744948799000,
+                            "name": "Projected - Per Game",
+                            "shortName": "Proj - Per Game",
+                            "timeframeTypeCode": "PROJECTED_WEEKLY",
+                            "startDate": 1728014400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "PROJECTION_0_31j_SEASON",
+                            "endDate": 1744948799000,
+                            "name": "Projected - Season",
+                            "shortName": "Proj - Season",
+                            "timeframeTypeCode": "PROJECTED_SEASON",
+                            "startDate": 1728014400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31j_YEAR_TO_DATE",
+                            "endDate": 1744948799000,
+                            "name": "2024-25 Reg Season - YTD",
+                            "showGoBackDays": true,
+                            "shortName": "2024-25 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1728014400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31j_BY_PERIOD",
+                            "endDate": 1744948799000,
+                            "name": "2024-25 Reg Season - Period",
+                            "showGoBackDays": true,
+                            "shortName": "2024-25 Reg - Period",
+                            "timeframeTypeCode": "BY_PERIOD",
+                            "startDate": 1728014400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31j_BY_DATE",
+                            "endDate": 1744948799000,
+                            "name": "2024-25 Reg Season - Dates",
+                            "showGoBackDays": true,
+                            "shortName": "2024-25 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1728014400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31h_YEAR_TO_DATE",
+                            "endDate": 1713499199000,
+                            "name": "2023-24 Reg Season - YTD",
+                            "shortName": "2023-24 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1696910400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31h_BY_DATE",
+                            "endDate": 1713499199000,
+                            "name": "2023-24 Reg Season - Dates",
+                            "shortName": "2023-24 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1696910400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31f_YEAR_TO_DATE",
+                            "endDate": 1681531199000,
+                            "name": "2022-23 Reg Season - YTD",
+                            "shortName": "2022-23 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1665115200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31f_BY_DATE",
+                            "endDate": 1681531199000,
+                            "name": "2022-23 Reg Season - Dates",
+                            "shortName": "2022-23 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1665115200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31d_YEAR_TO_DATE",
+                            "endDate": 1651463999000,
+                            "name": "2021-22 Reg Season - YTD",
+                            "shortName": "2021-22 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1634011200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31d_BY_DATE",
+                            "endDate": 1651463999000,
+                            "name": "2021-22 Reg Season - Dates",
+                            "shortName": "2021-22 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1634011200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31b_YEAR_TO_DATE",
+                            "endDate": 1621483199000,
+                            "name": "2020-21 Reg Season - YTD",
+                            "shortName": "2020-21 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1610514000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31b_BY_DATE",
+                            "endDate": 1621483199000,
+                            "name": "2020-21 Reg Season - Dates",
+                            "shortName": "2020-21 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1610514000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30z_YEAR_TO_DATE",
+                            "endDate": 1590551999000,
+                            "name": "2019-20 Reg Season - YTD",
+                            "shortName": "2019-20 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1569988800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30z_BY_DATE",
+                            "endDate": 1590551999000,
+                            "name": "2019-20 Reg Season - Dates",
+                            "shortName": "2019-20 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1569988800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30x_YEAR_TO_DATE",
+                            "endDate": 1554609599000,
+                            "name": "2018-19 Reg Season - YTD",
+                            "shortName": "2018-19 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1538539200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30x_BY_DATE",
+                            "endDate": 1554609599000,
+                            "name": "2018-19 Reg Season - Dates",
+                            "shortName": "2018-19 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1538539200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30v_YEAR_TO_DATE",
+                            "endDate": 1523246399000,
+                            "name": "2017-18 Reg Season - YTD",
+                            "shortName": "2017-18 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1507089600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30v_BY_DATE",
+                            "endDate": 1523246399000,
+                            "name": "2017-18 Reg Season - Dates",
+                            "shortName": "2017-18 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1507089600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30t_YEAR_TO_DATE",
+                            "endDate": 1491796799000,
+                            "name": "2016-17 Reg Season - YTD",
+                            "shortName": "2016-17 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1476244800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30t_BY_DATE",
+                            "endDate": 1491796799000,
+                            "name": "2016-17 Reg Season - Dates",
+                            "shortName": "2016-17 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1476244800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30r_YEAR_TO_DATE",
+                            "endDate": 1460347199000,
+                            "name": "2015-16 Reg Season - YTD",
+                            "shortName": "2015-16 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1444190400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30r_BY_DATE",
+                            "endDate": 1460347199000,
+                            "name": "2015-16 Reg Season - Dates",
+                            "shortName": "2015-16 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1444190400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30p_YEAR_TO_DATE",
+                            "endDate": 1428811199000,
+                            "name": "2014-15 Reg Season - YTD",
+                            "shortName": "2014-15 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1412740800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30p_BY_DATE",
+                            "endDate": 1428811199000,
+                            "name": "2014-15 Reg Season - Dates",
+                            "shortName": "2014-15 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1412740800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30n_YEAR_TO_DATE",
+                            "endDate": 1397447999000,
+                            "name": "2013-14 Reg Season - YTD",
+                            "shortName": "2013-14 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1380600000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30n_BY_DATE",
+                            "endDate": 1397447999000,
+                            "name": "2013-14 Reg Season - Dates",
+                            "shortName": "2013-14 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1380600000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30l_YEAR_TO_DATE",
+                            "endDate": 1367207999000,
+                            "name": "2012-13 Reg Season - YTD",
+                            "shortName": "2012-13 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1358571600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30l_BY_DATE",
+                            "endDate": 1367207999000,
+                            "name": "2012-13 Reg Season - Dates",
+                            "shortName": "2012-13 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1358571600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30j_YEAR_TO_DATE",
+                            "endDate": 1333857599000,
+                            "name": "2011-12 Reg Season - YTD",
+                            "shortName": "2011-12 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1317873600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30j_BY_DATE",
+                            "endDate": 1333857599000,
+                            "name": "2011-12 Reg Season - Dates",
+                            "shortName": "2011-12 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1317873600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30h_YEAR_TO_DATE",
+                            "endDate": 1302494399000,
+                            "name": "2010-11 Reg Season - YTD",
+                            "shortName": "2010-11 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1286424000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30h_BY_DATE",
+                            "endDate": 1302494399000,
+                            "name": "2010-11 Reg Season - Dates",
+                            "shortName": "2010-11 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1286424000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30f_YEAR_TO_DATE",
+                            "endDate": 1271044799000,
+                            "name": "2009-10 Reg Season - YTD",
+                            "shortName": "2009-10 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1254369600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30f_BY_DATE",
+                            "endDate": 1271044799000,
+                            "name": "2009-10 Reg Season - Dates",
+                            "shortName": "2009-10 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1254369600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30c_YEAR_TO_DATE",
+                            "endDate": 1239595199000,
+                            "name": "2008-09 Reg Season - YTD",
+                            "shortName": "2008-09 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1223092800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30c_BY_DATE",
+                            "endDate": 1239595199000,
+                            "name": "2008-09 Reg Season - Dates",
+                            "shortName": "2008-09 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1223092800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_309_YEAR_TO_DATE",
+                            "endDate": 1207540799000,
+                            "name": "2007-08 Reg Season - YTD",
+                            "shortName": "2007-08 Reg - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1190779200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_309_BY_DATE",
+                            "endDate": 1207540799000,
+                            "name": "2007-08 Reg Season - Dates",
+                            "shortName": "2007-08 Reg - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1190779200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31i_YEAR_TO_DATE",
+                            "endDate": 1719287999000,
+                            "name": "2023-24 Playoffs - YTD",
+                            "shortName": "2023-24 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1713585600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31i_BY_DATE",
+                            "endDate": 1719287999000,
+                            "name": "2023-24 Playoffs - Dates",
+                            "shortName": "2023-24 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1713585600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31g_YEAR_TO_DATE",
+                            "endDate": 1687233599000,
+                            "name": "2022-23 Playoffs - YTD",
+                            "shortName": "2022-23 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1681704000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31g_BY_DATE",
+                            "endDate": 1687233599000,
+                            "name": "2022-23 Playoffs - Dates",
+                            "shortName": "2022-23 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1681704000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31e_YEAR_TO_DATE",
+                            "endDate": 1656647999000,
+                            "name": "2021-22 Playoffs - YTD",
+                            "shortName": "2021-22 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1651464000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31e_BY_DATE",
+                            "endDate": 1656647999000,
+                            "name": "2021-22 Playoffs - Dates",
+                            "shortName": "2021-22 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1651464000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31c_YEAR_TO_DATE",
+                            "endDate": 1626407999000,
+                            "name": "2020-21 Playoffs - YTD",
+                            "shortName": "2020-21 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1621051200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31c_BY_DATE",
+                            "endDate": 1626407999000,
+                            "name": "2020-21 Playoffs - Dates",
+                            "shortName": "2020-21 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1621051200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31a_YEAR_TO_DATE",
+                            "endDate": 1601870399000,
+                            "name": "2019-20 Playoffs - YTD",
+                            "shortName": "2019-20 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1596254400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_31a_BY_DATE",
+                            "endDate": 1601870399000,
+                            "name": "2019-20 Playoffs - Dates",
+                            "shortName": "2019-20 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1596254400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30y_YEAR_TO_DATE",
+                            "endDate": 1560743999000,
+                            "name": "2018-19 Playoffs - YTD",
+                            "shortName": "2018-19 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1554868800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30y_BY_DATE",
+                            "endDate": 1560743999000,
+                            "name": "2018-19 Playoffs - Dates",
+                            "shortName": "2018-19 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1554868800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30w_YEAR_TO_DATE",
+                            "endDate": 1529121599000,
+                            "name": "2017-18 Playoffs - YTD",
+                            "shortName": "2017-18 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1523419200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30w_BY_DATE",
+                            "endDate": 1529121599000,
+                            "name": "2017-18 Playoffs - Dates",
+                            "shortName": "2017-18 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1523419200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30u_YEAR_TO_DATE",
+                            "endDate": 1497585599000,
+                            "name": "2016-17 Playoffs - YTD",
+                            "shortName": "2016-17 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1491969600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30u_BY_DATE",
+                            "endDate": 1497585599000,
+                            "name": "2016-17 Playoffs - Dates",
+                            "shortName": "2016-17 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1491969600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30s_YEAR_TO_DATE",
+                            "endDate": 1466135999000,
+                            "name": "2015-16 Playoffs - YTD",
+                            "shortName": "2015-16 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1460520000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30s_BY_DATE",
+                            "endDate": 1466135999000,
+                            "name": "2015-16 Playoffs - Dates",
+                            "shortName": "2015-16 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1460520000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30q_YEAR_TO_DATE",
+                            "endDate": 1435723199000,
+                            "name": "2014-15 Playoffs - YTD",
+                            "shortName": "2014-15 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1429070400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30q_BY_DATE",
+                            "endDate": 1435723199000,
+                            "name": "2014-15 Playoffs - Dates",
+                            "shortName": "2014-15 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1429070400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30o_YEAR_TO_DATE",
+                            "endDate": 1403495999000,
+                            "name": "2013-14 Playoffs - YTD",
+                            "shortName": "2013-14 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1397620800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30o_BY_DATE",
+                            "endDate": 1403495999000,
+                            "name": "2013-14 Playoffs - Dates",
+                            "shortName": "2013-14 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1397620800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30m_YEAR_TO_DATE",
+                            "endDate": 1372478399000,
+                            "name": "2012-13 Playoffs - YTD",
+                            "shortName": "2012-13 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1367294400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30m_BY_DATE",
+                            "endDate": 1372478399000,
+                            "name": "2012-13 Playoffs - Dates",
+                            "shortName": "2012-13 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1367294400000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30k_YEAR_TO_DATE",
+                            "endDate": 1341115199000,
+                            "name": "2011-12 Playoffs - YTD",
+                            "shortName": "2011-12 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1334116800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30k_BY_DATE",
+                            "endDate": 1341115199000,
+                            "name": "2011-12 Playoffs - Dates",
+                            "shortName": "2011-12 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1334116800000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30i_YEAR_TO_DATE",
+                            "endDate": 1308369599000,
+                            "name": "2010-11 Playoffs - YTD",
+                            "shortName": "2010-11 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1302667200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30i_BY_DATE",
+                            "endDate": 1308369599000,
+                            "name": "2010-11 Playoffs - Dates",
+                            "shortName": "2010-11 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1302667200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30g_YEAR_TO_DATE",
+                            "endDate": 1277956799000,
+                            "name": "2009-10 Playoffs - YTD",
+                            "shortName": "2009-10 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1271217600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30g_BY_DATE",
+                            "endDate": 1277956799000,
+                            "name": "2009-10 Playoffs - Dates",
+                            "shortName": "2009-10 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1271217600000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30d_YEAR_TO_DATE",
+                            "endDate": 1246420799000,
+                            "name": "2008-09 Playoffs - YTD",
+                            "shortName": "2008-09 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1239768000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30d_BY_DATE",
+                            "endDate": 1246420799000,
+                            "name": "2008-09 Playoffs - Dates",
+                            "shortName": "2008-09 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1239768000000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30a_YEAR_TO_DATE",
+                            "endDate": 1212638399000,
+                            "name": "2007-08 Playoffs - YTD",
+                            "shortName": "2007-08 Plyff - YTD",
+                            "timeframeTypeCode": "YEAR_TO_DATE",
+                            "startDate": 1207627200000
+                        },
+                        {
+                            "standard": true,
+                            "code": "SEASON_30a_BY_DATE",
+                            "endDate": 1212638399000,
+                            "name": "2007-08 Playoffs - Dates",
+                            "shortName": "2007-08 Plyff - Dates",
+                            "timeframeTypeCode": "BY_DATE",
+                            "startDate": 1207627200000
+                        }
+                    ],
+                    "periodList": [
+                        "1 (Fri Oct 4)",
+                        "2 (Sat Oct 5)",
+                        "3 (Sun Oct 6)",
+                        "4 (Mon Oct 7)",
+                        "5 (Tue Oct 8)",
+                        "6 (Wed Oct 9)",
+                        "7 (Thu Oct 10)",
+                        "8 (Fri Oct 11)",
+                        "9 (Sat Oct 12)",
+                        "10 (Sun Oct 13)",
+                        "11 (Mon Oct 14)",
+                        "12 (Tue Oct 15)",
+                        "13 (Wed Oct 16)",
+                        "14 (Thu Oct 17)",
+                        "15 (Fri Oct 18)",
+                        "16 (Sat Oct 19)",
+                        "17 (Sun Oct 20)",
+                        "18 (Mon Oct 21)",
+                        "19 (Tue Oct 22)",
+                        "20 (Wed Oct 23)",
+                        "21 (Thu Oct 24)",
+                        "22 (Fri Oct 25)",
+                        "23 (Sat Oct 26)",
+                        "24 (Sun Oct 27)",
+                        "25 (Mon Oct 28)",
+                        "26 (Tue Oct 29)",
+                        "27 (Wed Oct 30)",
+                        "28 (Thu Oct 31)",
+                        "29 (Fri Nov 1)",
+                        "30 (Sat Nov 2)",
+                        "31 (Sun Nov 3)",
+                        "32 (Mon Nov 4)",
+                        "33 (Tue Nov 5)",
+                        "34 (Wed Nov 6)",
+                        "35 (Thu Nov 7)",
+                        "36 (Fri Nov 8)",
+                        "37 (Sat Nov 9)",
+                        "38 (Sun Nov 10)",
+                        "39 (Mon Nov 11)",
+                        "40 (Tue Nov 12)",
+                        "41 (Wed Nov 13)",
+                        "42 (Thu Nov 14)",
+                        "43 (Fri Nov 15)",
+                        "44 (Sat Nov 16)",
+                        "45 (Sun Nov 17)",
+                        "46 (Mon Nov 18)",
+                        "47 (Tue Nov 19)",
+                        "48 (Wed Nov 20)",
+                        "49 (Thu Nov 21)",
+                        "50 (Fri Nov 22)",
+                        "51 (Sat Nov 23)",
+                        "52 (Sun Nov 24)",
+                        "53 (Mon Nov 25)",
+                        "54 (Tue Nov 26)",
+                        "55 (Wed Nov 27)",
+                        "56 (Thu Nov 28)",
+                        "57 (Fri Nov 29)",
+                        "58 (Sat Nov 30)",
+                        "59 (Sun Dec 1)",
+                        "60 (Mon Dec 2)",
+                        "61 (Tue Dec 3)",
+                        "62 (Wed Dec 4)",
+                        "63 (Thu Dec 5)",
+                        "64 (Fri Dec 6)",
+                        "65 (Sat Dec 7)",
+                        "66 (Sun Dec 8)",
+                        "67 (Mon Dec 9)",
+                        "68 (Tue Dec 10)",
+                        "69 (Wed Dec 11)",
+                        "70 (Thu Dec 12)",
+                        "71 (Fri Dec 13)",
+                        "72 (Sat Dec 14)",
+                        "73 (Sun Dec 15)",
+                        "74 (Mon Dec 16)",
+                        "75 (Tue Dec 17)",
+                        "76 (Wed Dec 18)",
+                        "77 (Thu Dec 19)",
+                        "78 (Fri Dec 20)",
+                        "79 (Sat Dec 21)",
+                        "80 (Sun Dec 22)",
+                        "81 (Mon Dec 23)",
+                        "82 (Tue Dec 24)",
+                        "83 (Wed Dec 25)",
+                        "84 (Thu Dec 26)",
+                        "85 (Fri Dec 27)",
+                        "86 (Sat Dec 28)",
+                        "87 (Sun Dec 29)",
+                        "88 (Mon Dec 30)",
+                        "89 (Tue Dec 31)",
+                        "90 (Wed Jan 1)",
+                        "91 (Thu Jan 2)",
+                        "92 (Fri Jan 3)",
+                        "93 (Sat Jan 4)",
+                        "94 (Sun Jan 5)",
+                        "95 (Mon Jan 6)",
+                        "96 (Tue Jan 7)",
+                        "97 (Wed Jan 8)",
+                        "98 (Thu Jan 9)",
+                        "99 (Fri Jan 10)",
+                        "100 (Sat Jan 11)",
+                        "101 (Sun Jan 12)",
+                        "102 (Mon Jan 13)",
+                        "103 (Tue Jan 14)",
+                        "104 (Wed Jan 15)",
+                        "105 (Thu Jan 16)",
+                        "106 (Fri Jan 17)",
+                        "107 (Sat Jan 18)",
+                        "108 (Sun Jan 19)",
+                        "109 (Mon Jan 20)",
+                        "110 (Tue Jan 21)",
+                        "111 (Wed Jan 22)",
+                        "112 (Thu Jan 23)",
+                        "113 (Fri Jan 24)",
+                        "114 (Sat Jan 25)",
+                        "115 (Sun Jan 26)",
+                        "116 (Mon Jan 27)",
+                        "117 (Tue Jan 28)",
+                        "118 (Wed Jan 29)",
+                        "119 (Thu Jan 30)",
+                        "120 (Fri Jan 31)",
+                        "121 (Sat Feb 1)",
+                        "122 (Sun Feb 2)",
+                        "123 (Mon Feb 3)",
+                        "124 (Tue Feb 4)",
+                        "125 (Wed Feb 5)",
+                        "126 (Thu Feb 6)",
+                        "127 (Fri Feb 7)",
+                        "128 (Sat Feb 8)",
+                        "129 (Sun Feb 9)",
+                        "130 (Mon Feb 10)",
+                        "131 (Tue Feb 11)",
+                        "132 (Wed Feb 12)",
+                        "133 (Thu Feb 13)",
+                        "134 (Fri Feb 14)",
+                        "135 (Sat Feb 15)",
+                        "136 (Sun Feb 16)",
+                        "137 (Mon Feb 17)",
+                        "138 (Tue Feb 18)",
+                        "139 (Wed Feb 19)",
+                        "140 (Thu Feb 20)",
+                        "141 (Fri Feb 21)",
+                        "142 (Sat Feb 22)",
+                        "143 (Sun Feb 23)",
+                        "144 (Mon Feb 24)",
+                        "145 (Tue Feb 25)",
+                        "146 (Wed Feb 26)",
+                        "147 (Thu Feb 27)",
+                        "148 (Fri Feb 28)",
+                        "149 (Sat Mar 1)",
+                        "150 (Sun Mar 2)",
+                        "151 (Mon Mar 3)",
+                        "152 (Tue Mar 4)",
+                        "153 (Wed Mar 5)",
+                        "154 (Thu Mar 6)",
+                        "155 (Fri Mar 7)",
+                        "156 (Sat Mar 8)",
+                        "157 (Sun Mar 9)",
+                        "158 (Mon Mar 10)",
+                        "159 (Tue Mar 11)",
+                        "160 (Wed Mar 12)",
+                        "161 (Thu Mar 13)",
+                        "162 (Fri Mar 14)",
+                        "163 (Sat Mar 15)",
+                        "164 (Sun Mar 16)",
+                        "165 (Mon Mar 17)",
+                        "166 (Tue Mar 18)",
+                        "167 (Wed Mar 19)",
+                        "168 (Thu Mar 20)",
+                        "169 (Fri Mar 21)",
+                        "170 (Sat Mar 22)",
+                        "171 (Sun Mar 23)",
+                        "172 (Mon Mar 24)",
+                        "173 (Tue Mar 25)",
+                        "174 (Wed Mar 26)",
+                        "175 (Thu Mar 27)",
+                        "176 (Fri Mar 28)",
+                        "177 (Sat Mar 29)",
+                        "178 (Sun Mar 30)",
+                        "179 (Mon Mar 31)",
+                        "180 (Tue Apr 1)",
+                        "181 (Wed Apr 2)",
+                        "182 (Thu Apr 3)",
+                        "183 (Fri Apr 4)",
+                        "184 (Sat Apr 5)",
+                        "185 (Sun Apr 6)",
+                        "186 (Mon Apr 7)",
+                        "187 (Tue Apr 8)",
+                        "188 (Wed Apr 9)",
+                        "189 (Thu Apr 10)",
+                        "190 (Fri Apr 11)",
+                        "191 (Sat Apr 12)",
+                        "192 (Sun Apr 13)",
+                        "193 (Mon Apr 14)",
+                        "194 (Tue Apr 15)",
+                        "195 (Wed Apr 16)",
+                        "196 (Thu Apr 17)"
+                    ]
+                },
+                "availableActiveViewType": "ALL_ROWS",
+                "commissioner": true,
+                "leagueNotices": [],
+                "draftPicksData": {
+                    "tableData": [
+                        [
+                            "2025",
+                            "1, 2, 3, 4, 5, 6"
+                        ]
+                    ],
+                    "draftPicksPerYear": [
+                        {
+                            "year": 2025,
+                            "draftPickList": [
+                                {
+                                    "round": 1,
+                                    "origOwnerTeamId": "6qk0zw9vlvmik97p"
+                                },
+                                {
+                                    "round": 2,
+                                    "origOwnerTeamId": "6qk0zw9vlvmik97p"
+                                },
+                                {
+                                    "round": 3,
+                                    "origOwnerTeamId": "6qk0zw9vlvmik97p"
+                                },
+                                {
+                                    "round": 4,
+                                    "origOwnerTeamId": "6qk0zw9vlvmik97p"
+                                },
+                                {
+                                    "round": 5,
+                                    "origOwnerTeamId": "6qk0zw9vlvmik97p"
+                                },
+                                {
+                                    "round": 6,
+                                    "origOwnerTeamId": "6qk0zw9vlvmik97p"
+                                }
+                            ],
+                            "actions": [
+                                {
+                                    "typeId": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "tableTitle": "Draft Picks",
+                    "tableHeader": [
+                        "Year",
+                        "Draft Picks"
+                    ]
+                }
+            }
+        }
+    ]
+}

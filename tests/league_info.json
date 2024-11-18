@@ -1,0 +1,726 @@
+{
+    "data": {
+        "sDate": "9:02 PM EDT",
+        "adrt": 45,
+        "up": "166.0.1"
+    },
+    "roles": [
+        "02"
+    ],
+    "responses": [
+        {
+            "data": {
+                "shortcutMenuNew": [
+                    {
+                        "routerLink": "SHORTCUT_ROW",
+                        "requiresLogin": false,
+                        "children": [
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "FANTASY_HOME",
+                                "icon": "home",
+                                "description": "League Home Page",
+                                "text": "Home",
+                                "url": "/newui/fantasy/home.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "FANTASY_PLAYERS",
+                                "icon": "person",
+                                "description": "Display players and their statistics",
+                                "text": "Players",
+                                "url": "/newui/fantasy/statistics.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TEAM_ROSTER",
+                                "icon": "group",
+                                "description": "Rosters, stats, info of the teams in your league",
+                                "text": "Roster",
+                                "url": "/newui/fantasy/teamRoster.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "LIVE_SCORING",
+                                "icon": "scoreboard",
+                                "description": "See your league stats update in real-time",
+                                "text": "Scoring",
+                                "url": "/newuixxxxx"
+                            }
+                        ],
+                        "text": "Menu0"
+                    },
+                    {
+                        "routerLink": "SHORTCUT_ROW",
+                        "requiresLogin": false,
+                        "children": [
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "FANTASY_STANDINGS",
+                                "icon": "format_list_numbered",
+                                "description": "Display league standings",
+                                "text": "Standings",
+                                "url": "/newui/fantasy/standings.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "PENDING_TRANSACTIONS",
+                                "icon": "group_add",
+                                "description": "Transactions that are waiting to be processed",
+                                "text": "Pending",
+                                "url": "/newui/fantasy/txDetailsPending.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TRANSACTION_HISTORY",
+                                "icon": "history",
+                                "description": "Transactions that have already been processed",
+                                "text": "History",
+                                "url": "/newui/fantasy/txDetailsHistory.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "FANTASY_COLUMNS",
+                                "icon": "feed",
+                                "description": "Fantasy Advice",
+                                "text": "Fantasy Advice",
+                                "url": "/newui/columnsHome.go?sport\u003d"
+                            }
+                        ],
+                        "text": "Menu1"
+                    },
+                    {
+                        "routerLink": "SHORTCUT_ROW",
+                        "requiresLogin": false,
+                        "text": "Menu2"
+                    }
+                ],
+                "fantasySettings": {
+                    "hidePlayerHeadshotsMobile": false,
+                    "teamName": "Ol\u0027 Ospreys",
+                    "teamLogo": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                    "aab": true,
+                    "draftStatus": "In Progress",
+                    "enableSportColors": true,
+                    "myDefaultTeamId": "6qk0zw9vlvmik97p",
+                    "isMember": true,
+                    "chatEnabled": true,
+                    "hideLeagueLogo": true,
+                    "leagueName": "Taylor-Evangelistas",
+                    "myTeamIds": [
+                        "6qk0zw9vlvmik97p"
+                    ],
+                    "sportId": "003",
+                    "hidePlayerHeadshotsDesktop": false,
+                    "generalSportId": "003",
+                    "subtitle": "2024-25 NHL",
+                    "headToHead": false,
+                    "season": {
+                        "displayNameShort": "2024-25 Reg",
+                        "endDate": 1744948799000,
+                        "displayName": "2024-25 Reg Season",
+                        "id": "31j",
+                        "startDate": 1728014400000,
+                        "displayYear": "2024-25"
+                    },
+                    "screenDefaults": {
+                        "LIVE_SCORING": {
+                            "local": {
+                                "mobileMatchupView": false
+                            }
+                        },
+                        "MATCHUP_PREVIEW": {
+                            "local": {
+                                "mobileMatchupView": false
+                            }
+                        }
+                    },
+                    "leagueHomeStandingsPosition": "1",
+                    "contentScaleTypeId": "1",
+                    "multiColumnLeftWidthHome": 50,
+                    "commissioner": true,
+                    "treasurerUsed": false
+                },
+                "positionMap": {
+                    "230": {
+                        "id": "230",
+                        "name": "Defense 4",
+                        "shortName": "D4",
+                        "sortOrder": 63,
+                        "colorKey": "--color-purple--softest"
+                    },
+                    "231": {
+                        "id": "231",
+                        "name": "Defense 5",
+                        "shortName": "D5",
+                        "sortOrder": 64,
+                        "colorKey": "--color-purple--softest"
+                    },
+                    "232": {
+                        "id": "232",
+                        "name": "Defense 6",
+                        "shortName": "D6",
+                        "sortOrder": 65,
+                        "colorKey": "--color-purple--softest"
+                    },
+                    "210": {
+                        "id": "210",
+                        "name": "NHL Team Goalies",
+                        "shortName": "TmG",
+                        "sortOrder": 100,
+                        "colorKey": "--color-amber--softest"
+                    },
+                    "233": {
+                        "id": "233",
+                        "name": "Wing 2",
+                        "shortName": "W2",
+                        "sortOrder": 41,
+                        "colorKey": "--color-purple--soft"
+                    },
+                    "211": {
+                        "id": "211",
+                        "name": "NHL Team",
+                        "shortName": "Tm",
+                        "sortOrder": 110,
+                        "colorKey": "--color-orange--light"
+                    },
+                    "234": {
+                        "id": "234",
+                        "name": "Wing 3",
+                        "shortName": "W3",
+                        "sortOrder": 42,
+                        "colorKey": "--color-purple--soft"
+                    },
+                    "212": {
+                        "id": "212",
+                        "name": "Enforcer",
+                        "shortName": "Enf",
+                        "sortOrder": 72,
+                        "colorKey": "--color-red"
+                    },
+                    "235": {
+                        "id": "235",
+                        "name": "Wing 4 ",
+                        "shortName": "W4",
+                        "sortOrder": 43,
+                        "colorKey": "--color-purple--soft"
+                    },
+                    "213": {
+                        "id": "213",
+                        "name": "Forward 2",
+                        "shortName": "F2",
+                        "sortOrder": 51,
+                        "colorKey": "--color-green--soft"
+                    },
+                    "236": {
+                        "id": "236",
+                        "name": "Wing 5",
+                        "shortName": "W5",
+                        "sortOrder": 44,
+                        "colorKey": "--color-purple--soft"
+                    },
+                    "214": {
+                        "id": "214",
+                        "name": "Forward 3",
+                        "shortName": "F3",
+                        "sortOrder": 52,
+                        "colorKey": "--color-green--soft"
+                    },
+                    "237": {
+                        "id": "237",
+                        "name": "Wing 6",
+                        "shortName": "W6",
+                        "sortOrder": 45,
+                        "colorKey": "--color-purple--soft"
+                    },
+                    "215": {
+                        "id": "215",
+                        "name": "Defense 2",
+                        "shortName": "D2",
+                        "sortOrder": 61,
+                        "colorKey": "--color-purple--softest"
+                    },
+                    "216": {
+                        "id": "216",
+                        "name": "Defense 3",
+                        "shortName": "D3",
+                        "sortOrder": 62,
+                        "colorKey": "--color-purple--softest"
+                    },
+                    "217": {
+                        "id": "217",
+                        "name": "Skater 2",
+                        "shortName": "Skt2",
+                        "sortOrder": 71,
+                        "colorKey": "--color-teal--softer"
+                    },
+                    "218": {
+                        "id": "218",
+                        "name": "Power Play Specialist",
+                        "shortName": "PP",
+                        "sortOrder": 73,
+                        "colorKey": "--color-teal--light"
+                    },
+                    "219": {
+                        "id": "219",
+                        "name": "Penalty Kill Specialist",
+                        "shortName": "PK",
+                        "sortOrder": 74,
+                        "colorKey": "--color-primary--light"
+                    },
+                    "220": {
+                        "id": "220",
+                        "name": "Goalie 2",
+                        "shortName": "G2",
+                        "sortOrder": 82,
+                        "colorKey": "--color-amber--softer"
+                    },
+                    "221": {
+                        "id": "221",
+                        "name": "Center 2",
+                        "shortName": "C2",
+                        "sortOrder": 11,
+                        "colorKey": "--color-orange--softer"
+                    },
+                    "222": {
+                        "id": "222",
+                        "name": "Left Wing 2",
+                        "shortName": "LW2",
+                        "sortOrder": 21,
+                        "colorKey": "--color-red--softer"
+                    },
+                    "201": {
+                        "id": "201",
+                        "name": "Goalie",
+                        "shortName": "G",
+                        "sortOrder": 80,
+                        "colorKey": "--color-amber--softer"
+                    },
+                    "223": {
+                        "id": "223",
+                        "name": "Right Wing 2",
+                        "shortName": "RW2",
+                        "sortOrder": 31,
+                        "colorKey": "--color-primary--softer"
+                    },
+                    "202": {
+                        "id": "202",
+                        "name": "Defense",
+                        "shortName": "D",
+                        "sortOrder": 60,
+                        "colorKey": "--color-purple--softest"
+                    },
+                    "224": {
+                        "id": "224",
+                        "name": "Center 3",
+                        "shortName": "C3",
+                        "sortOrder": 12,
+                        "colorKey": "--color-orange--softer"
+                    },
+                    "203": {
+                        "id": "203",
+                        "name": "Left Wing",
+                        "shortName": "LW",
+                        "sortOrder": 20,
+                        "colorKey": "--color-red--softer"
+                    },
+                    "225": {
+                        "id": "225",
+                        "name": "Center 4",
+                        "shortName": "C4",
+                        "sortOrder": 13,
+                        "colorKey": "--color-orange--softer"
+                    },
+                    "204": {
+                        "id": "204",
+                        "name": "Right Wing",
+                        "shortName": "RW",
+                        "sortOrder": 30,
+                        "colorKey": "--color-primary--softer "
+                    },
+                    "226": {
+                        "id": "226",
+                        "name": "Left Wing 3",
+                        "shortName": "LW3",
+                        "sortOrder": 22,
+                        "colorKey": "--color-red--softer"
+                    },
+                    "205": {
+                        "id": "205",
+                        "name": "Wing",
+                        "shortName": "W",
+                        "sortOrder": 40,
+                        "colorKey": "--color-purple--soft"
+                    },
+                    "227": {
+                        "id": "227",
+                        "name": "Left Wing 4",
+                        "shortName": "LW4",
+                        "sortOrder": 23,
+                        "colorKey": "--color-red--softer"
+                    },
+                    "206": {
+                        "id": "206",
+                        "name": "Center",
+                        "shortName": "C",
+                        "sortOrder": 10,
+                        "colorKey": "--color-orange--softer"
+                    },
+                    "228": {
+                        "id": "228",
+                        "name": "Right Wing 3",
+                        "shortName": "RW3",
+                        "sortOrder": 32,
+                        "colorKey": "--color-primary--softer"
+                    },
+                    "207": {
+                        "id": "207",
+                        "name": "Forward",
+                        "shortName": "F",
+                        "sortOrder": 50,
+                        "colorKey": "--color-green--soft"
+                    },
+                    "229": {
+                        "id": "229",
+                        "name": "Right Wing 4",
+                        "shortName": "RW4",
+                        "sortOrder": 33,
+                        "colorKey": "--color-primary--softer"
+                    },
+                    "208": {
+                        "id": "208",
+                        "name": "Skater",
+                        "shortName": "Skt",
+                        "sortOrder": 70,
+                        "colorKey": "--color-teal--softer"
+                    },
+                    "209": {
+                        "id": "209",
+                        "name": "NHL Team Skaters",
+                        "shortName": "TmS",
+                        "sortOrder": 90,
+                        "colorKey": "--color-red--lighter"
+                    }
+                },
+                "commissioner": true,
+                "fantasyMenu": [
+                    {
+                        "requiresLogin": false,
+                        "linkKey": "FANTASY_HOME",
+                        "icon": "home",
+                        "description": "League Home Page",
+                        "text": "Home",
+                        "url": "/newui/fantasy/home.go"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "children": [
+                            {
+                                "requiresLogin": false,
+                                "icon": "build",
+                                "description": "Set of screens that allow you to fully customize all league settings",
+                                "text": "League Setup",
+                                "url": "/newui/fantasy/createOrEditLeague.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "announcement",
+                                "description": "Create messages to display prominently on your league home page",
+                                "text": "Commissioner Messages",
+                                "url": "/newui/fantasy/commissionerMessages.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "supervisor_account",
+                                "description": "Manually adjust team constraints",
+                                "text": "Team Administration",
+                                "url": "/newui/fantasy/teamAdjustment.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "thumb_up",
+                                "description": "Lock/Unlock Teams from performing various functions",
+                                "text": "Team Permissions",
+                                "url": "/newui/fantasy/teamPermissions.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "apps",
+                                "description": "All commissioner options",
+                                "text": "All Options",
+                                "url": "/newui/fantasy/commissionerOptions.go"
+                            }
+                        ],
+                        "icon": "build",
+                        "description": "League-related commissioner functions",
+                        "text": "Commissioner",
+                        "url": "/newui/fantasy/commissionerOptions.go"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "linkKey": "FANTASY_STANDINGS",
+                        "icon": "format_list_numbered",
+                        "description": "Display league standings",
+                        "text": "Standings",
+                        "url": "/newui/fantasy/standings.go"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "linkKey": "FANTASY_PLAYERS",
+                        "icon": "person",
+                        "description": "Display players and their statistics",
+                        "text": "Players",
+                        "url": "/newui/fantasy/statistics.go"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "children": [
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TEAM_ROSTER",
+                                "icon": "group",
+                                "description": "Rosters, stats, info of the teams in your league",
+                                "text": "Roster",
+                                "url": "/newui/fantasy/teamRoster.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TEAM_PREFS",
+                                "icon": "camera_front",
+                                "description": "View/edit fields such as team name. logo, e-mail preferences, etc.",
+                                "text": "Settings",
+                                "url": "/newui/fantasy/myTeam.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "LEAGUE_NOTIFICATION_SETTINGS",
+                                "icon": "notifications",
+                                "description": "Choose which notifications you want to receive for this league",
+                                "text": "Notifications",
+                                "url": "/newui/fantasy/xxx.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TEAM_ROSTER_CHART",
+                                "icon": "insert_chart",
+                                "description": "Condensed chart showing all teams in your league",
+                                "text": "Roster Chart",
+                                "url": "/newui/fantasy/teamRosterChart.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "date_range",
+                                "description": "The position, status, and other info per period of each player on your team",
+                                "text": "Service Time",
+                                "url": "/newui/fantasy/teamServiceTime.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "info",
+                                "description": "View info about the teams in your league",
+                                "text": "Team Info",
+                                "url": "/newui/fantasy/teamInfo.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TEAM_OWNERS",
+                                "icon": "email",
+                                "description": "List of all teams\u0027 managers with contact information, and send emails to managers",
+                                "text": "Managers / Email",
+                                "url": "/newui/fantasy/teamOwners.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "report_problem",
+                                "description": "List of all teams\u0027 rosters that are in violation of roster rules, including illegal rosters, min/max stat rules, and minors eligibilitiy, where applicable",
+                                "text": "Violations",
+                                "url": "/newui/fantasy/rosterViolations.go"
+                            }
+                        ],
+                        "linkKey": "TEAM_ROSTER",
+                        "icon": "groups",
+                        "description": "Screens related to the teams in your league",
+                        "text": "Team",
+                        "url": "/newui/fantasy/teamRoster.go"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "linkKey": "LIVE_SCORING",
+                        "icon": "scoreboard",
+                        "description": "See your league stats update in real-time",
+                        "text": "Scoring",
+                        "url": "/newuixxxxx"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "children": [
+                            {
+                                "requiresLogin": false,
+                                "icon": "person_add",
+                                "description": "Do claims and drops where you already know the players you are going to claim",
+                                "text": "Commissioner Claim/Drop",
+                                "url": "/newui/fantasy/claimDrop.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "swap_vertical_circle",
+                                "description": "Propose a trade",
+                                "text": "Commissioner Trade",
+                                "url": "/newui/fantasy/trade.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TRADE_BLOCK",
+                                "icon": "store",
+                                "description": "View/Edit Trade Block",
+                                "text": "Trade Block",
+                                "url": "/newui/fantasy/tradeBlock.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "PENDING_TRANSACTIONS",
+                                "icon": "group_add",
+                                "description": "Transactions that are waiting to be processed",
+                                "text": "Pending",
+                                "url": "/newui/fantasy/txDetailsPending.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TRANSACTION_HISTORY",
+                                "icon": "history",
+                                "description": "Transactions that have already been processed",
+                                "text": "History",
+                                "url": "/newui/fantasy/txDetailsHistory.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "pin",
+                                "description": "Waiver Wire priority order for all teams in this league. The Commissioner of this league may edit this order.",
+                                "text": "Waiver Wire Order",
+                                "url": "/newui/fantasy/waiverWireOrder.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "pin",
+                                "description": "Free Agent Claim priority order for all teams in this league. The Commissioner of this league may edit this order.",
+                                "text": "FA Claim Order",
+                                "url": "/newui/fantasy/freeAgentClaimOrder.go"
+                            }
+                        ],
+                        "icon": "multiple_stop",
+                        "description": "Transaction-related functions",
+                        "text": "Transactions",
+                        "url": "/newui/fantasy/transactions.go"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "linkKey": "FANTASY_COLUMNS",
+                        "icon": "feed",
+                        "description": "Fantasy Advice",
+                        "text": "Fantasy Advice",
+                        "url": "/newui/columnsHome.go?sport\u003d"
+                    },
+                    {
+                        "requiresLogin": false,
+                        "children": [
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "TUTORIALS",
+                                "icon": "school",
+                                "description": "Learn the key parts of the Fantrax app and website",
+                                "text": "Tutorials",
+                                "url": "/newuinull"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "LEAGUE_RULES_SUMMARY",
+                                "icon": "gavel",
+                                "description": "Display the rules configured for this league",
+                                "text": "League Rules Summary",
+                                "url": "/newui/fantasy/league/{0}/rules"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "publish",
+                                "description": "Upgrade this league to a Premium League",
+                                "className": "payHighlight",
+                                "text": "Upgrade to Premium",
+                                "url": "/newui/fantasy/premiumLeaguePayment.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "LEAGUE_FORUM",
+                                "icon": "forum",
+                                "description": "League message forum",
+                                "text": "League Forum"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "NOTES",
+                                "icon": "sticky_note_2",
+                                "description": "Create, view and edit notes to help you remember things related to your team or anything else.",
+                                "text": "League Notes",
+                                "url": "/newuinull"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "local_library",
+                                "description": "Articles for this league",
+                                "text": "League Articles",
+                                "url": "/newui/fantasy/leagueArticles.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "poll",
+                                "description": "League Polls",
+                                "text": "League Polls",
+                                "url": "/newui/fantasy/leaguePolls.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "format_list_numbered",
+                                "description": "Future draft picks",
+                                "text": "Draft Picks",
+                                "url": "/newui/fantasy/draftPicks.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "DRAFT_RESULTS",
+                                "icon": "playlist_add_check",
+                                "description": "Result of league\u0027s draft",
+                                "text": "Draft Results",
+                                "url": "/newuinull"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "history",
+                                "description": "League History",
+                                "text": "League History",
+                                "url": "/newui/fantasy/leagueHistory.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "linkKey": "SYSTEM_LOG",
+                                "icon": "event",
+                                "description": "View log of rules changes and actions performed by system or commissioner",
+                                "text": "System Log",
+                                "url": "/newui/fantasy/systemLog.go"
+                            },
+                            {
+                                "requiresLogin": false,
+                                "icon": "apps",
+                                "description": "View all available options",
+                                "text": "All Options",
+                                "url": "/newui/fantasy/miscellaneous.go"
+                            }
+                        ],
+                        "icon": "reorder",
+                        "description": "Various functions for your fantasy league",
+                        "text": "Other",
+                        "url": "/newui/fantasy/miscellaneous.go"
+                    }
+                ]
+            }
+        }
+    ]
+}

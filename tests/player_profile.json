@@ -1,0 +1,1716 @@
+{
+    "data": {
+        "sDate": "8:21 PM EST",
+        "adrt": 45,
+        "up": "166.0.1"
+    },
+    "roles": [
+        "02"
+    ],
+    "responses": [
+        {
+            "data": {
+                "showFantasyGameLog": true,
+                "displayedSelections": {
+                    "seasonId": "31j"
+                },
+                "sectionContent": {
+                    "OVERVIEW": {
+                        "tables": [
+                            {
+                                "caption": "2024-25 Stats",
+                                "header": {
+                                    "cells": [
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Games Played",
+                                            "shortName": "GP"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Goals",
+                                            "shortName": "G"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Assists",
+                                            "shortName": "A"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Points",
+                                            "shortName": "Pt"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Plus/Minus",
+                                            "shortName": "+/-"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Penalty Minutes",
+                                            "shortName": "PIM"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Shots on Goal",
+                                            "shortName": "SOG"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Shooting %",
+                                            "shortName": "Shot%"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Power Play Goals",
+                                            "shortName": "PPG"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Power Play Assists",
+                                            "shortName": "PPA"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Short-Handed Goals",
+                                            "shortName": "SHG"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Short-Handed Assists",
+                                            "shortName": "SHA"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Game-winning Goals",
+                                            "shortName": "GWG"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Overtime Goals",
+                                            "shortName": "OG"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Hits",
+                                            "shortName": "Hit"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Blocks",
+                                            "shortName": "Blk"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Giveaways",
+                                            "shortName": "Gv"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Takeaways",
+                                            "shortName": "Tk"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Faceoffs Won/Lost",
+                                            "shortName": "Faceoffs"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Time On Ice Per Game",
+                                            "shortName": "TOI"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Time On Ice Per Game - Power Play",
+                                            "shortName": "TOIPP"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Time On Ice Per Game - Short-Handed",
+                                            "shortName": "TOISH"
+                                        }
+                                    ]
+                                },
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "14"
+                                            },
+                                            {
+                                                "content": "8"
+                                            },
+                                            {
+                                                "content": "9"
+                                            },
+                                            {
+                                                "content": "17"
+                                            },
+                                            {
+                                                "content": "11"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "39"
+                                            },
+                                            {
+                                                "content": "20.5"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "7"
+                                            },
+                                            {
+                                                "content": "3"
+                                            },
+                                            {
+                                                "content": "12"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "15:44"
+                                            },
+                                            {
+                                                "content": "02:46"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "caption": "Recent Games",
+                                "header": {
+                                    "cells": [
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Date",
+                                            "width": 7.0,
+                                            "shortName": "Date",
+                                            "key": "date"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Team",
+                                            "width": 4.0,
+                                            "shortName": "Team",
+                                            "key": "team"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Opponent",
+                                            "shortName": "Opp",
+                                            "key": "opponent"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Score",
+                                            "width": 7.0,
+                                            "shortName": "Score",
+                                            "key": "score"
+                                        },
+                                        {
+                                            "name": "Goals",
+                                            "shortName": "G"
+                                        },
+                                        {
+                                            "name": "Assists",
+                                            "shortName": "A"
+                                        },
+                                        {
+                                            "name": "Points",
+                                            "shortName": "Pt"
+                                        },
+                                        {
+                                            "name": "Plus/Minus",
+                                            "shortName": "+/-"
+                                        },
+                                        {
+                                            "name": "Penalty Minutes",
+                                            "shortName": "PIM"
+                                        },
+                                        {
+                                            "name": "Shots on Goal",
+                                            "shortName": "SOG"
+                                        },
+                                        {
+                                            "name": "Power Play Goals",
+                                            "shortName": "PPG"
+                                        },
+                                        {
+                                            "name": "Power Play Assists",
+                                            "shortName": "PPA"
+                                        },
+                                        {
+                                            "name": "Short-Handed Goals",
+                                            "shortName": "SHG"
+                                        },
+                                        {
+                                            "name": "Short-Handed Assists",
+                                            "shortName": "SHA"
+                                        },
+                                        {
+                                            "name": "Game-winning Goals",
+                                            "shortName": "GWG"
+                                        },
+                                        {
+                                            "name": "Hits",
+                                            "shortName": "Hit"
+                                        },
+                                        {
+                                            "name": "Blocks",
+                                            "shortName": "Blk"
+                                        },
+                                        {
+                                            "name": "Faceoffs Won/Lost",
+                                            "shortName": "Faceoffs"
+                                        },
+                                        {
+                                            "name": "Time On Ice",
+                                            "shortName": "TOI"
+                                        },
+                                        {
+                                            "name": "Time On Ice - Power Play",
+                                            "shortName": "TOIPP"
+                                        },
+                                        {
+                                            "name": "Time On Ice - Short-Handed",
+                                            "shortName": "TOISH"
+                                        }
+                                    ]
+                                },
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Nov 7"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "COL"
+                                            },
+                                            {
+                                                "content": "W 1-0",
+                                                "props": {
+                                                    "eventId": "0634b"
+                                                }
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "5"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "15:29"
+                                            },
+                                            {
+                                                "content": "02:29"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Nov 5"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "UTA"
+                                            },
+                                            {
+                                                "content": "W 3-0",
+                                                "props": {
+                                                    "eventId": "0633v"
+                                                }
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "14:53"
+                                            },
+                                            {
+                                                "content": "02:48"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Nov 3"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "TBL"
+                                            },
+                                            {
+                                                "content": "W 7-4",
+                                                "props": {
+                                                    "eventId": "0633i"
+                                                }
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "3"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "14:06"
+                                            },
+                                            {
+                                                "content": "03:41"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Nov 1"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "@CBJ"
+                                            },
+                                            {
+                                                "content": "W 6-2",
+                                                "props": {
+                                                    "eventId": "06333"
+                                                }
+                                            },
+                                            {
+                                                "content": "3"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "4"
+                                            },
+                                            {
+                                                "content": "3"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "5"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "17:19"
+                                            },
+                                            {
+                                                "content": "02:33"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Oct 30"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "@DET"
+                                            },
+                                            {
+                                                "content": "W 6-2",
+                                                "props": {
+                                                    "eventId": "0632o"
+                                                }
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "17:05"
+                                            },
+                                            {
+                                                "content": "02:40"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Oct 28"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "TOR"
+                                            },
+                                            {
+                                                "content": "L 4-6",
+                                                "props": {
+                                                    "eventId": "0632b"
+                                                }
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "17:07"
+                                            },
+                                            {
+                                                "content": "04:11"
+                                            },
+                                            {
+                                                "content": "00:01"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Oct 26"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "@CGY"
+                                            },
+                                            {
+                                                "content": "W 5-3",
+                                                "props": {
+                                                    "eventId": "0631w"
+                                                }
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "5"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "16:01"
+                                            },
+                                            {
+                                                "content": "03:27"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Oct 24"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "@SEA"
+                                            },
+                                            {
+                                                "content": "W 4-3",
+                                                "props": {
+                                                    "eventId": "0631k"
+                                                }
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "3"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "17:11"
+                                            },
+                                            {
+                                                "content": "01:32"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Oct 22"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "@STL"
+                                            },
+                                            {
+                                                "content": "W 3-2",
+                                                "props": {
+                                                    "eventId": "06313"
+                                                }
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "17:26"
+                                            },
+                                            {
+                                                "content": "01:58"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Oct 20"
+                                            },
+                                            {
+                                                "content": "WPG",
+                                                "toolTip": "Winnipeg"
+                                            },
+                                            {
+                                                "content": "PIT"
+                                            },
+                                            {
+                                                "content": "W 6-3",
+                                                "props": {
+                                                    "eventId": "0630s"
+                                                }
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "2"
+                                            },
+                                            {
+                                                "content": "1"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "3"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0"
+                                            },
+                                            {
+                                                "content": "0-0-0%"
+                                            },
+                                            {
+                                                "content": "12:57"
+                                            },
+                                            {
+                                                "content": "00:58"
+                                            },
+                                            {
+                                                "content": "00:00"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "caption": "Recent Trends",
+                                "header": {
+                                    "cells": [
+                                        {
+                                            "sortDirection": 1,
+                                            "width": 8.0,
+                                            "shortName": "Trend"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "width": 10.0,
+                                            "shortName": "Date Range"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Games Played",
+                                            "shortName": "GP"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Goals",
+                                            "shortName": "G"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Assists",
+                                            "shortName": "A"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Plus/Minus",
+                                            "shortName": "+/-"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Shots on Goal",
+                                            "shortName": "SOG"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Short-Handed Points",
+                                            "shortName": "SHP"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "name": "Hits",
+                                            "shortName": "Hit"
+                                        }
+                                    ]
+                                },
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "7-Day",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "briefContent": "Nov 1 -\u003cbr/\u003eNov 7",
+                                                "content": "Fri Nov 1 -\u003cbr/\u003eThu Nov 7",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "4",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "4",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "2",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "4",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "15",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "0",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "1",
+                                                "highlight": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "7-Day",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "briefContent": "Oct 25 -\u003cbr/\u003eOct 31",
+                                                "content": "Fri Oct 25 -\u003cbr/\u003eThu Oct 31",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "3",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "1",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "1",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "0",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "8",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "0",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "1",
+                                                "highlight": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "7-Day",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "briefContent": "Oct 18 -\u003cbr/\u003eOct 24",
+                                                "content": "Fri Oct 18 -\u003cbr/\u003eThu Oct 24",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "4",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "3",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "4",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "6",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "11",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "0",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "3",
+                                                "highlight": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "14-Day",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "briefContent": "Oct 25 -\u003cbr/\u003eNov 7",
+                                                "content": "Fri Oct 25 -\u003cbr/\u003eThu Nov 7",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "7",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "5",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "3",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "4",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "23",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "0",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "2",
+                                                "highlight": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "30-Day",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "briefContent": "Oct 9 -\u003cbr/\u003eNov 7",
+                                                "content": "Wed Oct 9 -\u003cbr/\u003eThu Nov 7",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "14",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "8",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "9",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "11",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "39",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "0",
+                                                "highlight": true
+                                            },
+                                            {
+                                                "content": "7",
+                                                "highlight": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "caption": "Upcoming Games",
+                                "header": {
+                                    "cells": [
+                                        {
+                                            "sortDirection": 1,
+                                            "shortName": "Date (PST)"
+                                        },
+                                        {
+                                            "sortDirection": 1,
+                                            "shortName": "Opponent"
+                                        }
+                                    ]
+                                },
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Sat Nov 9, 12:00PM"
+                                            },
+                                            {
+                                                "content": "Dallas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Tue Nov 12, 4:00PM"
+                                            },
+                                            {
+                                                "content": "@NY Rangers"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Thu Nov 14, 4:00PM"
+                                            },
+                                            {
+                                                "content": "@Tampa Bay"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Sat Nov 16, 4:00PM"
+                                            },
+                                            {
+                                                "content": "@Florida"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Tue Nov 19, 5:00PM"
+                                            },
+                                            {
+                                                "content": "Florida"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Fri Nov 22, 4:00PM"
+                                            },
+                                            {
+                                                "content": "@Pittsburgh"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Sat Nov 23, 4:00PM"
+                                            },
+                                            {
+                                                "content": "@Nashville"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Mon Nov 25, 5:00PM"
+                                            },
+                                            {
+                                                "content": "@Minnesota"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Wed Nov 27, 7:00PM"
+                                            },
+                                            {
+                                                "content": "@Los Angeles"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "content": "Fri Nov 29, 5:30PM"
+                                            },
+                                            {
+                                                "content": "@Vegas"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "latestNews": {
+                            "analysisText": "Ehlers is off to a torrid start in November with six points through two games. The left-shot forward assisted on Logan Stanley\u0027s first goal of the season in the second period before burying an empty-netter to help seal the win for the Jets. Ehlers has four multi-point performances this season, and he\u0027s up to eight goals, nine assists and a plus-11 rating over 12 outings.",
+                            "subTitle": "Nov 3, 2024 9:18 PM PST",
+                            "analysisTitle": "Analysis",
+                            "text": "Ehlers registered a goal and an assist in Sunday\u0027s 7-4 win over the Lightning.",
+                            "title": "Latest News"
+                        }
+                    }
+                },
+                "fantasyTeams": [
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_25.png",
+                        "name": "I’m Batman",
+                        "id": "fd06ve1blvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_25.png",
+                        "shortName": "Batman",
+                        "commissioner": false
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                        "name": "Ol\u0027 Ospreys",
+                        "id": "6qk0zw9vlvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                        "shortName": "Ospreys",
+                        "commissioner": true
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_2.png",
+                        "name": "Poo Poo Heads",
+                        "id": "nc0l2qblm1f4c94j",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_2.png",
+                        "shortName": "Mom",
+                        "commissioner": false
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_15.png",
+                        "name": "Toe Drag Release",
+                        "id": "mkmw31y3lvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_15.png",
+                        "shortName": "Hi",
+                        "commissioner": false
+                    }
+                ],
+                "myTeam": {
+                    "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                    "name": "Ol\u0027 Ospreys",
+                    "id": "xxxxxxxxxx",
+                    "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                    "shortName": "Ospreys",
+                    "commissioner": true
+                },
+                "miscData": {
+                    "teamName": "Winnipeg Jets",
+                    "personalInfo": [
+                        {
+                            "name": "Birthplace",
+                            "value": "Aalborg, Denmark"
+                        },
+                        {
+                            "name": "Birthdate",
+                            "value": "February 14, 1996"
+                        },
+                        {
+                            "name": "Age",
+                            "value": 28
+                        },
+                        {
+                            "name": "Height",
+                            "value": "6\u0027"
+                        },
+                        {
+                            "name": "Weight",
+                            "value": "172 lbs"
+                        },
+                        {
+                            "name": "Shoots",
+                            "value": "Left"
+                        },
+                        {
+                            "name": "NHL Seasons",
+                            "value": 9
+                        },
+                        {
+                            "name": "Drafted",
+                            "value": "2014 - Winnipeg Jets (1/9)"
+                        },
+                        {
+                            "name": "Salary",
+                            "value": "$6,750,000"
+                        },
+                        {
+                            "name": "Cap Hit",
+                            "value": "$6,000,000"
+                        },
+                        {
+                            "name": "AAV",
+                            "value": "$6,000,000"
+                        }
+                    ],
+                    "defaultPosition": "LW",
+                    "urlName": "nikolaj-ehlers",
+                    "allFantraxLeaguesTitle": "All Fantrax Leagues",
+                    "uniformNumber": "27",
+                    "percentActive": {
+                        "name": "Active",
+                        "items": [
+                            {
+                                "name": "Next Week",
+                                "value": "80%"
+                            },
+                            {
+                                "name": "This Week",
+                                "value": "80%"
+                            },
+                            {
+                                "name": "Last Week",
+                                "value": "88%"
+                            }
+                        ]
+                    },
+                    "percentOwned": {
+                        "name": "Rostered",
+                        "items": [
+                            {
+                                "name": "Next Week",
+                                "value": "95%"
+                            },
+                            {
+                                "name": "This Week",
+                                "value": "95%"
+                            },
+                            {
+                                "name": "Last Week",
+                                "value": "95%"
+                            }
+                        ]
+                    },
+                    "headshotUrl": "https://fantraximg.com/si/headshots/NHL/hs03as8_96_6.png",
+                    "highlightStats": [
+                        {
+                            "name": "Rank among all Fs / Everyone",
+                            "shortName": "Rank F/Ov",
+                            "value": "14/31"
+                        },
+                        {
+                            "name": "% of Fantrax leagues that have this player on their roster this week",
+                            "shortName": "Ros",
+                            "value": "95%"
+                        },
+                        {
+                            "name": "% of leagues that have this player starting, i.e. in an active slot this week",
+                            "shortName": "Start",
+                            "value": "80%"
+                        }
+                    ],
+                    "headshotUrlLarge": "https://fantraximg.com/si/headshots/NHL/hs03as8_400_6.png",
+                    "transactionSalaryBudgetInfo": [],
+                    "ownerTeamId": "6qk0zw9vlvmik97p",
+                    "sportId": "003",
+                    "averageDraftPosition": {
+                        "name": "ADP",
+                        "description": "Average draft position among all leagues on Fantrax",
+                        "value": "135.32"
+                    },
+                    "name": "Nikolaj Ehlers",
+                    "teamShortName": "WPG",
+                    "percentDrafted": {
+                        "name": "Drafted",
+                        "value": "84.57%"
+                    },
+                    "playerInfoTitle": "Player Info",
+                    "leagueData": [
+                        {
+                            "name": "Status/Team",
+                            "description": "Status or name of fantasy team if currently rostered",
+                            "value": "Ospreys",
+                            "valueDescription": "Ol\u0027 Ospreys"
+                        },
+                        {
+                            "name": "Eligible",
+                            "description": "Eligible positions in this league",
+                            "value": "F"
+                        }
+                    ]
+                },
+                "season": {
+                    "displayNameShort": "2024-25 Reg",
+                    "endDate": 1744948799000,
+                    "displayName": "2024-25 Reg Season",
+                    "id": "31j",
+                    "startDate": 1728014400000,
+                    "displayYear": "2024-25"
+                },
+                "lastSeason": {
+                    "displayNameShort": "2023-24 Reg",
+                    "endDate": 1713499199000,
+                    "displayName": "2023-24 Reg Season",
+                    "id": "31h",
+                    "startDate": 1696910400000,
+                    "displayYear": "2023-24"
+                },
+                "actionButtons": [
+                    {
+                        "teamId": "6qk0zw9vlvmik97p",
+                        "typeId": "3",
+                        "url": "/newui/fantasy/claimDrop.go?leagueId\u003dxxxxxx\u0026type\u003ddrop\u0026scorerId\u003d03as8\u0026teamId\u003d6qk0zw9vlvmik97p"
+                    },
+                    {
+                        "typeId": "5"
+                    },
+                    {
+                        "typeId": "7"
+                    }
+                ],
+                "currentOrRecentSeason": {
+                    "displayNameShort": "2024-25 Reg",
+                    "endDate": 1744948799000,
+                    "displayName": "2024-25 Reg Season",
+                    "id": "31j",
+                    "startDate": 1728014400000,
+                    "displayYear": "2024-25"
+                },
+                "commissioner": true,
+                "sections": [
+                    {
+                        "code": "OVERVIEW",
+                        "name": "Overview",
+                        "shortName": "Overview"
+                    },
+                    {
+                        "code": "STATS",
+                        "name": "Stats",
+                        "shortName": "Stats"
+                    },
+                    {
+                        "code": "SPLITS",
+                        "name": "Splits",
+                        "shortName": "Splits"
+                    },
+                    {
+                        "code": "OWNERSHIP",
+                        "name": "Rostered",
+                        "shortName": "Rostered"
+                    },
+                    {
+                        "code": "GAME_LOG_FANTASY",
+                        "name": "Game Log (Fantasy)",
+                        "shortName": "Games (Fntsy)"
+                    },
+                    {
+                        "code": "GAME_LOG",
+                        "name": "Game Log",
+                        "shortName": "Games"
+                    },
+                    {
+                        "code": "NEWS_NOTES",
+                        "name": "News \u0026 Notes",
+                        "shortName": "News"
+                    },
+                    {
+                        "code": "TRANSACTIONS_FANTASY",
+                        "name": "Transactions (Fantasy)",
+                        "shortName": "Trans (Fntsy)"
+                    },
+                    {
+                        "code": "TEAM_SERVICE_TIME",
+                        "name": "Team Service Time",
+                        "shortName": "Service Time"
+                    },
+                    {
+                        "code": "TRANSACTIONS",
+                        "name": "Transactions",
+                        "shortName": "Trans"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "fantasyTeams": [
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_25.png",
+                        "name": "I’m Batman",
+                        "id": "fd06ve1blvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_25.png",
+                        "shortName": "Batman",
+                        "commissioner": false
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                        "name": "Ol\u0027 Ospreys",
+                        "id": "6qk0zw9vlvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.png",
+                        "shortName": "Ospreys",
+                        "commissioner": true
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_2.png",
+                        "name": "Poo Poo Heads",
+                        "id": "nc0l2qblm1f4c94j",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_2.png",
+                        "shortName": "Mom",
+                        "commissioner": false
+                    },
+                    {
+                        "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_15.png",
+                        "name": "Toe Drag Release",
+                        "id": "mkmw31y3lvmik97p",
+                        "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_15.png",
+                        "shortName": "Hi",
+                        "commissioner": false
+                    }
+                ]
+            }
+        }
+    ]
+}

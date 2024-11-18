@@ -1,0 +1,2868 @@
+{
+    "data": {
+        "sDate": "1:56 PM EDT",
+        "adrt": 45,
+        "up": "166.0.1"
+    },
+    "roles": [
+        "02"
+    ],
+    "responses": [
+        {
+            "data": {
+                "goBackDays": [
+                    1,
+                    7,
+                    14,
+                    30,
+                    60
+                ],
+                "fantasyTeamInfo": {
+                    "fd06ve1blvmik97p": {
+                        "name": "I’m Batman",
+                        "logoUrl512": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_25.svg",
+                        "shortName": "Batman"
+                    },
+                    "nc0l2qblm1f4c94j": {
+                        "name": "Poo Poo Heads",
+                        "logoUrl512": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_2.svg",
+                        "shortName": "Mom"
+                    },
+                    "6qk0zw9vlvmik97p": {
+                        "name": "Ol\u0027 Ospreys",
+                        "logoUrl512": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_19.svg",
+                        "shortName": "Ospreys"
+                    },
+                    "mkmw31y3lvmik97p": {
+                        "name": "Toe Drag Release",
+                        "logoUrl512": "https://fantraximg.com/assets/images/icons/fantasyteam/nhl/nhl_15.svg",
+                        "shortName": "Hi"
+                    }
+                },
+                "displayedSelections": {
+                    "projectionsAvailable": true,
+                    "period": 21,
+                    "timeStartType": "PERIOD_ONLY",
+                    "view": "REGULAR_SEASON",
+                    "showTabs": false,
+                    "hideGoBackDays": false,
+                    "timeframeType": "YEAR_TO_DATE",
+                    "proj": false,
+                    "displayedStartDate": 1728028800000,
+                    "displayedEndDate": 1729843200000
+                },
+                "miscData": {
+                    "displayedMinDate": 1728028800000,
+                    "showLogos": true,
+                    "heading": "2024 Taylor-Evangelistas",
+                    "displayedMaxDate": 1744963199000
+                },
+                "tableList": [
+                    {
+                        "tableType": "SECTION_HEADING",
+                        "caption": "Standings By Category - Skaters",
+                        "rows": []
+                    },
+                    {
+                        "tableType": "SECTION_HEADING",
+                        "caption": "Standings By Category - Goalies",
+                        "rows": []
+                    },
+                    {
+                        "fixedRows": true,
+                        "tableType": "Rotisserie",
+                        "fixedHeader": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rk",
+                                    "key": "rank"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                }
+                            ]
+                        },
+                        "caption": "Standings - Point Totals ",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Pts",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Waiver Wire Claim Order",
+                                    "shortName": "WW",
+                                    "key": "wwOrder"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Free Agent Claim Order",
+                                    "shortName": "FA",
+                                    "key": "faOrder"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Games Played",
+                                    "shortName": "GP",
+                                    "key": "gb"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2130#-1",
+                                    "scipId": "2010#2130#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Goals",
+                                    "shortName": "G",
+                                    "key": "2010#2130#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2090#-1",
+                                    "scipId": "2010#2090#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Assists",
+                                    "shortName": "A",
+                                    "key": "2010#2090#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2181#-1",
+                                    "scipId": "2010#2181#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Plus/Minus",
+                                    "shortName": "+/-",
+                                    "key": "2010#2181#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2270#-1",
+                                    "scipId": "2010#2270#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Shots on Goal",
+                                    "shortName": "SOG",
+                                    "key": "2010#2270#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2344#-1",
+                                    "scipId": "2010#2344#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Short-Handed Points",
+                                    "shortName": "SHP",
+                                    "key": "2010#2344#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2147#-1",
+                                    "scipId": "2010#2147#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Hits",
+                                    "shortName": "Hit",
+                                    "key": "2010#2147#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#231b#-1",
+                                    "scipId": "2020#231b#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Wins (Goalies only) -- Includes Overtime Wins and Shootout Wins. Skaters cannot get a win using this category - for that - use the \"regular\" Wins category.",
+                                    "shortName": "W",
+                                    "key": "2020#231b#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#2330#-1",
+                                    "scipId": "2020#2330#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Save Percentage -- Saves / Shots on Goal Against",
+                                    "shortName": "SV%",
+                                    "key": "2020#2330#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#2290#-1",
+                                    "scipId": "2020#2290#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Shutouts",
+                                    "shortName": "SHO",
+                                    "key": "2020#2290#-1",
+                                    "maxWidth": 3.0
+                                }
+                            ],
+                            "cellsTopLevel": [
+                                {
+                                    "colspan": 5,
+                                    "name": ""
+                                },
+                                {
+                                    "colspan": 6,
+                                    "name": "Skaters"
+                                },
+                                {
+                                    "colspan": 3,
+                                    "name": "Goalies"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "32",
+                                        "toolTip": "32"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "103"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "3"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "24.5",
+                                        "toolTip": "24.5"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "110"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "1.5"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "3"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "19",
+                                        "toolTip": "19"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "103"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "14.5",
+                                        "toolTip": "14.5"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "81"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1.5"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "fixedRows": true,
+                        "tableType": "Rotisserie",
+                        "fixedHeader": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rk",
+                                    "key": "rank"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                }
+                            ]
+                        },
+                        "caption": "Standings - Stat Totals ",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Pts",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Waiver Wire Claim Order",
+                                    "shortName": "WW",
+                                    "key": "wwOrder"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Free Agent Claim Order",
+                                    "shortName": "FA",
+                                    "key": "faOrder"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Games Played",
+                                    "shortName": "GP",
+                                    "key": "gb"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2130#-1",
+                                    "scipId": "2010#2130#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Goals",
+                                    "shortName": "G",
+                                    "key": "2010#2130#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2090#-1",
+                                    "scipId": "2010#2090#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Assists",
+                                    "shortName": "A",
+                                    "key": "2010#2090#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2181#-1",
+                                    "scipId": "2010#2181#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Plus/Minus",
+                                    "shortName": "+/-",
+                                    "key": "2010#2181#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2270#-1",
+                                    "scipId": "2010#2270#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Shots on Goal",
+                                    "shortName": "SOG",
+                                    "key": "2010#2270#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2344#-1",
+                                    "scipId": "2010#2344#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Short-Handed Points",
+                                    "shortName": "SHP",
+                                    "key": "2010#2344#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2010#2147#-1",
+                                    "scipId": "2010#2147#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Hits",
+                                    "shortName": "Hit",
+                                    "key": "2010#2147#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#231b#-1",
+                                    "scipId": "2020#231b#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Wins (Goalies only) -- Includes Overtime Wins and Shootout Wins. Skaters cannot get a win using this category - for that - use the \"regular\" Wins category.",
+                                    "shortName": "W",
+                                    "key": "2020#231b#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#2330#-1",
+                                    "scipId": "2020#2330#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Save Percentage -- Saves / Shots on Goal Against",
+                                    "shortName": "SV%",
+                                    "key": "2020#2330#-1",
+                                    "maxWidth": 3.0
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "sortKey": "SCORING_CATEGORY_2020#2290#-1",
+                                    "scipId": "2020#2290#-1",
+                                    "sortType": "SCORING_CATEGORY",
+                                    "name": "Shutouts",
+                                    "shortName": "SHO",
+                                    "key": "2020#2290#-1",
+                                    "maxWidth": 3.0
+                                }
+                            ],
+                            "cellsTopLevel": [
+                                {
+                                    "colspan": 5,
+                                    "name": ""
+                                },
+                                {
+                                    "colspan": 6,
+                                    "name": "Skaters"
+                                },
+                                {
+                                    "colspan": 3,
+                                    "name": "Goalies"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "32",
+                                        "toolTip": "32"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "103"
+                                    },
+                                    {
+                                        "content": "30",
+                                        "toolTip": "30"
+                                    },
+                                    {
+                                        "content": "63",
+                                        "toolTip": "63"
+                                    },
+                                    {
+                                        "content": "13",
+                                        "toolTip": "13"
+                                    },
+                                    {
+                                        "content": "225",
+                                        "toolTip": "225"
+                                    },
+                                    {
+                                        "content": "3",
+                                        "toolTip": "3"
+                                    },
+                                    {
+                                        "content": "111",
+                                        "toolTip": "111"
+                                    },
+                                    {
+                                        "content": "12",
+                                        "toolTip": "12"
+                                    },
+                                    {
+                                        "content": ".914",
+                                        "toolTip": "0.913832"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "24.5",
+                                        "toolTip": "24.5"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "110"
+                                    },
+                                    {
+                                        "content": "19",
+                                        "toolTip": "19"
+                                    },
+                                    {
+                                        "content": "52",
+                                        "toolTip": "52"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    },
+                                    {
+                                        "content": "260",
+                                        "toolTip": "260"
+                                    },
+                                    {
+                                        "content": "0",
+                                        "toolTip": "0"
+                                    },
+                                    {
+                                        "content": "102",
+                                        "toolTip": "102"
+                                    },
+                                    {
+                                        "content": "10",
+                                        "toolTip": "10"
+                                    },
+                                    {
+                                        "content": ".914",
+                                        "toolTip": "0.913613"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "19",
+                                        "toolTip": "19"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "103"
+                                    },
+                                    {
+                                        "content": "32",
+                                        "toolTip": "32"
+                                    },
+                                    {
+                                        "content": "45",
+                                        "toolTip": "45"
+                                    },
+                                    {
+                                        "content": "-2",
+                                        "toolTip": "-2"
+                                    },
+                                    {
+                                        "content": "294",
+                                        "toolTip": "294"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    },
+                                    {
+                                        "content": "66",
+                                        "toolTip": "66"
+                                    },
+                                    {
+                                        "content": "3",
+                                        "toolTip": "3"
+                                    },
+                                    {
+                                        "content": ".863",
+                                        "toolTip": "0.863354"
+                                    },
+                                    {
+                                        "content": "0",
+                                        "toolTip": "0"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "14.5",
+                                        "toolTip": "14.5"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "81"
+                                    },
+                                    {
+                                        "content": "17",
+                                        "toolTip": "17"
+                                    },
+                                    {
+                                        "content": "44",
+                                        "toolTip": "44"
+                                    },
+                                    {
+                                        "content": "-5",
+                                        "toolTip": "-5"
+                                    },
+                                    {
+                                        "content": "198",
+                                        "toolTip": "198"
+                                    },
+                                    {
+                                        "content": "0",
+                                        "toolTip": "0"
+                                    },
+                                    {
+                                        "content": "68",
+                                        "toolTip": "68"
+                                    },
+                                    {
+                                        "content": "5",
+                                        "toolTip": "5"
+                                    },
+                                    {
+                                        "content": ".907",
+                                        "toolTip": "0.90681"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "fixedRows": true,
+                        "tableType": "Rotisserie2",
+                        "fixedHeader": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                }
+                            ]
+                        },
+                        "caption": "Standings - Skaters",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "pd"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Games Played",
+                                    "shortName": "GP",
+                                    "key": "gs"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Goals",
+                                    "shortName": "G",
+                                    "key": "sh"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Assists",
+                                    "shortName": "A",
+                                    "key": "sh"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Plus/Minus",
+                                    "shortName": "+/-",
+                                    "key": "sh"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Shots on Goal",
+                                    "shortName": "SOG",
+                                    "key": "sh"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Short-Handed Points",
+                                    "shortName": "SHP",
+                                    "key": "sh"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Hits",
+                                    "shortName": "Hit",
+                                    "key": "sh"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "21"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-0.5"
+                                    },
+                                    {
+                                        "content": "87"
+                                    },
+                                    {
+                                        "content": "30"
+                                    },
+                                    {
+                                        "content": "63"
+                                    },
+                                    {
+                                        "content": "13"
+                                    },
+                                    {
+                                        "content": "225"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "111"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "16"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "91"
+                                    },
+                                    {
+                                        "content": "32"
+                                    },
+                                    {
+                                        "content": "45"
+                                    },
+                                    {
+                                        "content": "-2"
+                                    },
+                                    {
+                                        "content": "294"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "66"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "15.5"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-0.5"
+                                    },
+                                    {
+                                        "content": "97"
+                                    },
+                                    {
+                                        "content": "19"
+                                    },
+                                    {
+                                        "content": "52"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "260"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "102"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "7.5"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-1"
+                                    },
+                                    {
+                                        "content": "71"
+                                    },
+                                    {
+                                        "content": "17"
+                                    },
+                                    {
+                                        "content": "44"
+                                    },
+                                    {
+                                        "content": "-5"
+                                    },
+                                    {
+                                        "content": "198"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "68"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "fixedRows": true,
+                        "tableType": "Rotisserie2",
+                        "fixedHeader": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                }
+                            ]
+                        },
+                        "caption": "Standings - Goalies",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "pd"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Games Played",
+                                    "shortName": "GP",
+                                    "key": "gs"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Wins (Goalies only) -- Includes Overtime Wins and Shootout Wins. Skaters cannot get a win using this category - for that - use the \"regular\" Wins category.",
+                                    "shortName": "W",
+                                    "key": "sh"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Save Percentage -- Saves / Shots on Goal Against",
+                                    "shortName": "SV%",
+                                    "key": "sh"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Shutouts",
+                                    "shortName": "SHO",
+                                    "key": "sh"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "11"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "1.5"
+                                    },
+                                    {
+                                        "content": "16"
+                                    },
+                                    {
+                                        "content": "12"
+                                    },
+                                    {
+                                        "content": ".914"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "9"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-1.5"
+                                    },
+                                    {
+                                        "content": "13"
+                                    },
+                                    {
+                                        "content": "10"
+                                    },
+                                    {
+                                        "content": ".914"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "7"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "10"
+                                    },
+                                    {
+                                        "content": "5"
+                                    },
+                                    {
+                                        "content": ".907"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "12"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": ".863"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ],
+                                "fixedCells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Goals",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Goals",
+                                    "shortName": "G",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "32",
+                                        "toolTip": "32"
+                                    },
+                                    {
+                                        "content": "5"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-1"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "30",
+                                        "toolTip": "30"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "19",
+                                        "toolTip": "19"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "17",
+                                        "toolTip": "17"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Assists",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Assists",
+                                    "shortName": "A",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "63",
+                                        "toolTip": "63"
+                                    },
+                                    {
+                                        "content": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "52",
+                                        "toolTip": "52"
+                                    },
+                                    {
+                                        "content": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "45",
+                                        "toolTip": "45"
+                                    },
+                                    {
+                                        "content": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-1"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "44",
+                                        "toolTip": "44"
+                                    },
+                                    {
+                                        "content": "2"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Plus/Minus",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Plus/Minus",
+                                    "shortName": "+/-",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "0.5"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "13",
+                                        "toolTip": "13"
+                                    },
+                                    {
+                                        "content": "1"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-0.5"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    },
+                                    {
+                                        "content": "-11"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "-2",
+                                        "toolTip": "-2"
+                                    },
+                                    {
+                                        "content": "-3"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "-5",
+                                        "toolTip": "-5"
+                                    },
+                                    {
+                                        "content": "2"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Shots on Goal",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Shots on Goal",
+                                    "shortName": "SOG",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "294",
+                                        "toolTip": "294"
+                                    },
+                                    {
+                                        "content": "28"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "260",
+                                        "toolTip": "260"
+                                    },
+                                    {
+                                        "content": "24"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "225",
+                                        "toolTip": "225"
+                                    },
+                                    {
+                                        "content": "21"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "198",
+                                        "toolTip": "198"
+                                    },
+                                    {
+                                        "content": "8"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Short-Handed Points",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Short-Handed Points",
+                                    "shortName": "SHP",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "3",
+                                        "toolTip": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "1.5"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "0",
+                                        "toolTip": "0"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "1.5"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "0",
+                                        "toolTip": "0"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Hits",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Hits",
+                                    "shortName": "Hit",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "111",
+                                        "toolTip": "111"
+                                    },
+                                    {
+                                        "content": "17"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "102",
+                                        "toolTip": "102"
+                                    },
+                                    {
+                                        "content": "13"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "68",
+                                        "toolTip": "68"
+                                    },
+                                    {
+                                        "content": "2"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "66",
+                                        "toolTip": "66"
+                                    },
+                                    {
+                                        "content": "5"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Wins (Goalies only)",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Wins (Goalies only)",
+                                    "shortName": "W",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "0.5"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "12",
+                                        "toolTip": "12"
+                                    },
+                                    {
+                                        "content": "2"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-0.5"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "10",
+                                        "toolTip": "10"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "5",
+                                        "toolTip": "5"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "3",
+                                        "toolTip": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Save Percentage",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Save Percentage",
+                                    "shortName": "SV%",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "gainColor": 1,
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": ".914",
+                                        "toolTip": "0.913832"
+                                    },
+                                    {
+                                        "content": ".002"
+                                    }
+                                ]
+                            },
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "gainColor": -1,
+                                        "content": "-1"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": ".914",
+                                        "toolTip": "0.913613"
+                                    },
+                                    {
+                                        "content": "-.001"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "2"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": ".907",
+                                        "toolTip": "0.90681"
+                                    },
+                                    {
+                                        "content": ".000"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": ".863",
+                                        "toolTip": "0.863354"
+                                    },
+                                    {
+                                        "content": "-.005"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tableType": "Rotisserie3",
+                        "caption": "Shutouts",
+                        "header": {
+                            "cells": [
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rank",
+                                    "shortName": "Rank",
+                                    "key": "rank"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Rotisserie Points",
+                                    "shortName": "Points",
+                                    "key": "pts"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in rotisserie points from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                },
+                                {
+                                    "align": "LEFT",
+                                    "sortDirection": 1,
+                                    "name": "Team",
+                                    "shortName": "Team",
+                                    "key": "team"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "Shutouts",
+                                    "shortName": "SHO",
+                                    "key": "sc"
+                                },
+                                {
+                                    "sortDirection": 1,
+                                    "name": "The change (green up, red down) in this stat from the previous game day",
+                                    "shortName": "+/-",
+                                    "key": "diff"
+                                }
+                            ]
+                        },
+                        "rows": [
+                            {
+                                "highlight": true,
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Ol\u0027 Ospreys",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "6qk0zw9vlvmik97p"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Poo Poo Heads",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "nc0l2qblm1f4c94j"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "3"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "Toe Drag Release",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "mkmw31y3lvmik97p"
+                                    },
+                                    {
+                                        "content": "1",
+                                        "toolTip": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "content": "4"
+                                    },
+                                    {
+                                        "content": "1"
+                                    },
+                                    {
+                                        "content": "0"
+                                    },
+                                    {
+                                        "content": "I’m Batman",
+                                        "leagueId": "asdfasdfqer",
+                                        "id": "asdfasdfqer",
+                                        "teamId": "fd06ve1blvmik97p"
+                                    },
+                                    {
+                                        "content": "0",
+                                        "toolTip": "0"
+                                    },
+                                    {
+                                        "content": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "displayedLists": {
+                    "goBackDays": [
+                        1,
+                        7,
+                        14,
+                        30,
+                        60
+                    ],
+                    "pagination": {
+                        "startPageNum": 0,
+                        "numTeamsPerPage": 25,
+                        "endPageNum": 0,
+                        "pageNum": 1
+                    },
+                    "tabs": [],
+                    "periods": [
+                        {
+                            "object2": "21 (Thu Oct 24)",
+                            "object1": 21
+                        },
+                        {
+                            "object2": "20 (Wed Oct 23)",
+                            "object1": 20
+                        },
+                        {
+                            "object2": "19 (Tue Oct 22)",
+                            "object1": 19
+                        },
+                        {
+                            "object2": "18 (Mon Oct 21)",
+                            "object1": 18
+                        },
+                        {
+                            "object2": "17 (Sun Oct 20)",
+                            "object1": 17
+                        },
+                        {
+                            "object2": "16 (Sat Oct 19)",
+                            "object1": 16
+                        },
+                        {
+                            "object2": "15 (Fri Oct 18)",
+                            "object1": 15
+                        },
+                        {
+                            "object2": "14 (Thu Oct 17)",
+                            "object1": 14
+                        },
+                        {
+                            "object2": "13 (Wed Oct 16)",
+                            "object1": 13
+                        },
+                        {
+                            "object2": "12 (Tue Oct 15)",
+                            "object1": 12
+                        },
+                        {
+                            "object2": "11 (Mon Oct 14)",
+                            "object1": 11
+                        },
+                        {
+                            "object2": "10 (Sun Oct 13)",
+                            "object1": 10
+                        },
+                        {
+                            "object2": "9 (Sat Oct 12)",
+                            "object1": 9
+                        },
+                        {
+                            "object2": "8 (Fri Oct 11)",
+                            "object1": 8
+                        },
+                        {
+                            "object2": "7 (Thu Oct 10)",
+                            "object1": 7
+                        },
+                        {
+                            "object2": "6 (Wed Oct 9)",
+                            "object1": 6
+                        },
+                        {
+                            "object2": "5 (Tue Oct 8)",
+                            "object1": 5
+                        },
+                        {
+                            "object2": "4 (Mon Oct 7)",
+                            "object1": 4
+                        },
+                        {
+                            "object2": "3 (Sun Oct 6)",
+                            "object1": 3
+                        },
+                        {
+                            "object2": "2 (Sat Oct 5)",
+                            "object1": 2
+                        },
+                        {
+                            "object2": "1 (Fri Oct 4)",
+                            "object1": 1
+                        }
+                    ],
+                    "timeframeTypes": [
+                        {
+                            "name": "Year To Date",
+                            "id": "YEAR_TO_DATE"
+                        },
+                        {
+                            "name": "By Period",
+                            "id": "BY_PERIOD"
+                        },
+                        {
+                            "name": "By Date",
+                            "id": "BY_DATE"
+                        }
+                    ],
+                    "timeStartTypes": [
+                        {
+                            "object2": "Period Only",
+                            "object1": "PERIOD_ONLY"
+                        },
+                        {
+                            "object2": "From Start Of Season",
+                            "object1": "FROM_SEASON_START"
+                        }
+                    ]
+                },
+                "commissioner": true
+            }
+        }
+    ]
+}
